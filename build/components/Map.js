@@ -80,7 +80,7 @@ var Map = React.createClass({
 		                .style("cursor", function() { return "pointer"; })
 		                .style("stroke-width", function() { return 1.2; })
 		                .on("mouseover", function(e){ 
-		                    tip.show(feature.properties.owmnaam);
+		                	if(feature.properties.owmnaam !== config.cityName) tip.show(feature.properties.owmnaam);
 		                })
 		                .on("mouseout", function(e){
 		                    tip.hide();
