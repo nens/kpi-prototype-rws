@@ -33,6 +33,7 @@ var $ = require('jquery');
 var d3 = require('d3');
 var Utils = require('./Utils');
 var debug = require('debug')('Map.js');
+require('../libs/d3.tip.js');
 
 var config = require('../config');
 
@@ -57,6 +58,8 @@ var Map = React.createClass({
 
 		if(self.isMounted()) {
 
+			var tip = d3.tip().attr('class', 'd3-tip').html(function(d) { return d; });
+
 	        svg = d3.select(self.refs.map.getDOMNode()).append("svg")
 	            .attr("width", width)
 	            .attr("height", height);
@@ -68,33 +71,40 @@ var Map = React.createClass({
 	        	});
 	            json.features.map(function(feature) {
 	                feature.key = feature.properties.owmident;
+	                svg.call(tip);
 	                svg.append("path")
 		                .datum(feature)
 		                .attr("d", path)
-		                .attr("class", 'stadsdeel ' + feature.properties.owmident)
+		                .attr("class", 'stadsdeel ' + feature.properties.owmnaam)
 		                .style("stroke", function() { return "white"; })
 		                .style("cursor", function() { return "pointer"; })
 		                .style("stroke-width", function() { return 1.2; })
+		                .on("mouseover", function(e){ 
+		                    tip.show(feature.properties.owmnaam);
+		                })
+		                .on("mouseout", function(e){
+		                    tip.hide();
+		                })
 		                .on('click', function() {
-		                    self.props.selectStadsdeel(feature.properties.owmident);
+		                    self.props.selectStadsdeel(feature.properties.owmnaam);
 		                });
 	            });
-	            svg.selectAll("text")
-	                .data(json.features)
-	                .enter()
-	                .append("svg:text")
-	                .text(function(d){
-	                    return d.properties.owmnaam;
-	                })
-	                .attr("x", function(d){
-	                    return path.centroid(d)[0];
-	                })
-	                .attr("y", function(d){
-	                    return  path.centroid(d)[1];
-	                })
-	                .attr("fill", "white")                
-	                .attr("text-anchor","middle")
-	                .attr('font-size','10pt');                
+	            // svg.selectAll("text")
+	            //     .data(json.features)
+	            //     .enter()
+	            //     .append("svg:text")
+	            //     .text(function(d){
+	            //         return d.properties.owmnaam;
+	            //     })
+	            //     .attr("x", function(d){
+	            //         return path.centroid(d)[0];
+	            //     })
+	            //     .attr("y", function(d){
+	            //         return  path.centroid(d)[1];
+	            //     })
+	            //     .attr("fill", "white")                
+	            //     .attr("text-anchor","middle")
+	            //     .attr('font-size','10pt');                
 	        }); 	           	
         }        
 

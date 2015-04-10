@@ -71,7 +71,7 @@ var ChemieApp = React.createClass({
     },
     handleStadsdeelClick: function(stadsdeel) {
         if(this.state.stadsdeel === stadsdeel) {
-            debug('De-selecting ' + stadsdeel + ', selecting ' + conig.cityName);
+            debug('De-selecting ' + stadsdeel + ', selecting ' + config.cityName);
             this.setState({'stadsdeel': config.cityName});
         } else {
             debug('Selecting ' + stadsdeel);
@@ -141,6 +141,7 @@ var ChemieApp = React.createClass({
 
             perGebied = d3.nest()
                 .key(function(d) {
+                    console.log(d);
                     return d.Gebied;
                 })
                 .entries(filteredPIList);

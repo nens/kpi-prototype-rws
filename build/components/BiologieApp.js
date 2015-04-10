@@ -141,7 +141,7 @@ var BiologieApp = React.createClass({
 
             perGebied = d3.nest()
                 .key(function(d) {
-                    return d.owmident;
+                    return d.Gebied;
                 })
                 .entries(filteredPIList);
         }
@@ -153,7 +153,7 @@ var BiologieApp = React.createClass({
             var title = pigroup.key;
             var filteredValues = d3.nest()
                 .key(function(d) {
-                    return d.owmident;
+                    return d.Gebied;
                 })
                 .entries(pigroup.values);
 
