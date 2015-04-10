@@ -1,0 +1,319 @@
+ID_PI,KPI,PI,Gebied,Eenheid,Ref_value_month_2,Ref_value_month_0,Ref_value_month_minus2,Date,Value,Score,Abs
+1,Biologie,Biologie totaal,NL89_oostsde,,0,0,0,2014,0,0.7,0
+1,Biologie,Biologie totaal,NL90_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Biologie totaal,NL91JK,,0,0,0,2014,0,0.7,0
+1,Biologie,Biologie totaal,NL91MWK,,0,0,0,2014,0,0.7,0
+1,Biologie,Biologie totaal,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
+1,Biologie,Biologie totaal,NL87_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Biologie totaal,NL95_3A,,0,0,0,2014,0,0.7,0
+1,Biologie,Biologie totaal,NL95_4A,,0,0,0,2014,0,0.7,0
+1,Biologie,Biologie totaal,NL86_5,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL86_6,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL90_1,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL91JK,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL91MWK,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL81_10,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL81_2,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL81_3,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL89_grevlemr,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL89_veersmr,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL89_westsde,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL89_zwin,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL95_1A,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL95_2A,,0,0,0,2014,0,0.5,0
+1,Biologie,Biologie totaal,NL89_antwknpd,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL89_kantnzgt,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL89_spuiknl,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL81_1,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL89_volkerak,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL89_zoommedt,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL92_MARKERMEER,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.3,0
+1,Biologie,Biologie totaal,NL94_11,,0,0,0,2014,0,0.1,0
+1,Biologie,Biologie totaal,NL94_8,,0,0,0,2014,0,0.1,0
+1,Biologie,Biologie totaal,NL94_9,,0,0,0,2014,0,0.1,0
+1,Biologie,Fytoplankton,NL86_5,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL86_6,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_antwknpd,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_kantnzgt,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_oostsde,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_spuiknl,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL90_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL91JK,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL91MWK,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL81_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL81_10,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL81_2,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL81_3,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL87_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_grevlemr,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_veersmr,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_volkerak,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_zoommedt,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_zwin,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL92_ZWARTEMEER,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL94_11,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL94_9,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL95_1A,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL95_2A,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL95_3A,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL95_4A,,0,0,0,2014,0,0.7,0
+1,Biologie,Fytoplankton,NL89_westsde,,0,0,0,2014,0,0.5,0
+1,Biologie,Fytoplankton,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Fytoplankton,NL92_MARKERMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Fytoplankton,NL94_8,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL89_kantnzgt,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL89_oostsde,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL90_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL91JK,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL91MWK,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL81_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL81_10,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL87_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL89_veersmr,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL89_westsde,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL92_IJSSELMEER,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL92_MARKERMEER,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL94_11,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL94_8,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL94_9,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL95_3A,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL95_4A,,0,0,0,2014,0,0.7,0
+1,Biologie,Macrofauna,NL86_5,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL86_6,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL89_antwknpd,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL89_spuiknl,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL81_2,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL81_3,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL89_grevlemr,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL89_zwin,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL95_1A,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL95_2A,,0,0,0,2014,0,0.5,0
+1,Biologie,Macrofauna,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.3,0
+1,Biologie,Macrofauna,NL89_volkerak,,0,0,0,2014,0,0.3,0
+1,Biologie,Macrofauna,NL89_zoommedt,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL86_5,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL86_6,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL90_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL91JK,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL91MWK,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL81_2,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL87_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL89_westsde,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL89_zwin,,0,0,0,2014,0,0.7,0
+1,Biologie,Overige waterflora,NL89_oostsde,,0,0,0,2014,0,0.5,0
+1,Biologie,Overige waterflora,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
+1,Biologie,Overige waterflora,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.5,0
+1,Biologie,Overige waterflora,NL81_10,,0,0,0,2014,0,0.5,0
+1,Biologie,Overige waterflora,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Overige waterflora,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Overige waterflora,NL89_antwknpd,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL89_kantnzgt,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL89_spuiknl,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL81_1,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL89_volkerak,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL89_zoommedt,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL92_MARKERMEER,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.3,0
+1,Biologie,Overige waterflora,NL94_11,,0,0,0,2014,0,0.1,0
+1,Biologie,Overige waterflora,NL94_8,,0,0,0,2014,0,0.1,0
+1,Biologie,Overige waterflora,NL94_9,,0,0,0,2014,0,0.1,0
+1,Biologie,Vis,NL89_kantnzgt,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL90_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL91JK,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL91MWK,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL87_1,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL92_MARKERMEER,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL92_ZWARTEMEER,,0,0,0,2014,0,0.7,0
+1,Biologie,Vis,NL86_5,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL86_6,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL89_antwknpd,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL89_spuiknl,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL90_1,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL91JK,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL91MWK,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL81_2,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL89_grevlemr,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL89_veersmr,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL89_volkerak,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL89_westsde,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL89_zoommedt,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL94_8,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL94_9,,0,0,0,2014,0,0.5,0
+1,Biologie,Vis,NL94_11,,0,0,0,2014,0,0.1,0
+1,Biologie,Fytoplankton,NL95_4A,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL95_3A,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL94_9,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL94_8,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL94_11,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL91JK,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL91MWK,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL90_1,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL89_zwin,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,nl89_oostsde,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,nl89_grevlemr,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,nl89_westsde,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,nl89_antwknpd,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,nl89_kantnzgt,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,nl89_veersmr,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL87_1,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL86_6,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL86_5,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL81_2,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL81_3,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL95_2A,,0,0,0,2009,0,0.7,0
+1,Biologie,Biologie totaal,NL94_11,,0,0,0,2009,0,0.7,0
+1,Biologie,Biologie totaal,NL81_3,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL94_11,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL92_MARKERMEER,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL92_IJSSELMEER,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL91JK,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL90_1,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL89_zwin,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,nl89_veersmr,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,nl89_westsde,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,nl89_oostsde,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL86_5,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL81_1,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL81_10,,0,0,0,2009,0,0.7,0
+1,Biologie,Macrofauna,NL81_3,,0,0,0,2009,0,0.7,0
+1,Biologie,Overige waterflora,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.7,0
+1,Biologie,Overige waterflora,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.7,0
+1,Biologie,Overige waterflora,NL92_ZWARTEMEER,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,NL94_11,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,NL92_IJSSELMEER,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,NL92_ZWARTEMEER,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,NL91JK,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,nl89_kantnzgt,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,nl89_zoommedt,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,nl89_veersmr,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,nl89_antwknpd,,0,0,0,2009,0,0.7,0
+1,Biologie,Vis,NL87_1,,0,0,0,2009,0,0.7,0
+1,Biologie,Fytoplankton,NL95_2A,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL95_1A,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL92_IJSSELMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL92_ZWARTEMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,nl89_zoommedt,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL89_volkerak,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL89_spuiknl,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL81_1,,0,0,0,2009,0,0.5,0
+1,Biologie,Fytoplankton,NL81_10,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL95_3A,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL95_4A,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL95_1A,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL94_8,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL95_3A,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL95_4A,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL95_2A,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL95_1A,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL94_9,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL94_8,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL92_ZWARTEMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL92_IJSSELMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL91JK,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL91MWK,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,nl89_oostsde,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,nl89_zoommedt,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,nl89_westsde,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL87_1,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL81_2,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL81_10,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL94_9,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL92_ZWARTEMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL91MWK,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,nl89_grevlemr,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,nl89_antwknpd,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL89_volkerak,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,nl89_zoommedt,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,nl89_kantnzgt,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL87_1,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL86_6,,0,0,0,2009,0,0.5,0
+1,Biologie,Macrofauna,NL81_2,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL92_IJSSELMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL91JK,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL91MWK,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,nl89_zoommedt,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,nl89_oostsde,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,nl89_westsde,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL87_1,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL81_2,,0,0,0,2009,0,0.5,0
+1,Biologie,Overige waterflora,NL81_10,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL94_8,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL94_9,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL91MWK,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL90_1,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL89_volkerak,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,nl89_westsde,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,nl89_grevlemr,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL86_6,,0,0,0,2009,0,0.5,0
+1,Biologie,Vis,NL81_2,,0,0,0,2009,0,0.5,0
+1,Biologie,Biologie totaal,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,NL90_1,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,NL89_zwin,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,NL89_spuiknl,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,NL89_volkerak,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,nl89_antwknpd,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,NL86_5,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,NL86_6,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,NL81_1,,0,0,0,2009,0,0.3,0
+1,Biologie,Macrofauna,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.3,0
+1,Biologie,Macrofauna,NL89_spuiknl,,0,0,0,2009,0,0.3,0
+1,Biologie,Overige waterflora,NL90_1,,0,0,0,2009,0,0.3,0
+1,Biologie,Overige waterflora,nl89_antwknpd,,0,0,0,2009,0,0.3,0
+1,Biologie,Overige waterflora,NL89_zwin,,0,0,0,2009,0,0.3,0
+1,Biologie,Overige waterflora,NL89_spuiknl,,0,0,0,2009,0,0.3,0
+1,Biologie,Overige waterflora,NL89_volkerak,,0,0,0,2009,0,0.3,0
+1,Biologie,Overige waterflora,NL86_5,,0,0,0,2009,0,0.3,0
+1,Biologie,Overige waterflora,NL86_6,,0,0,0,2009,0,0.3,0
+1,Biologie,Overige waterflora,NL81_1,,0,0,0,2009,0,0.3,0
+1,Biologie,Vis,NL89_spuiknl,,0,0,0,2009,0,0.3,0
+1,Biologie,Vis,NL86_5,,0,0,0,2009,0,0.3,0
+1,Biologie,Biologie totaal,nl89_grevlemr,,0,0,0,2009,0,0.1,0
+1,Biologie,Biologie totaal,nl89_kantnzgt,,0,0,0,2009,0,0.1,0
+1,Biologie,Biologie totaal,nl89_veersmr,,0,0,0,2009,0,0.1,0
+1,Biologie,Overige waterflora,nl89_grevlemr,,0,0,0,2009,0,0.1,0
+1,Biologie,Overige waterflora,nl89_veersmr,,0,0,0,2009,0,0.1,0
+1,Biologie,Overige waterflora,nl89_kantnzgt,,0,0,0,2009,0,0.1,0

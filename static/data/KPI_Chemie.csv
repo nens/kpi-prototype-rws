@@ -1,0 +1,273 @@
+ID_PI,KPI,PI,Gebied,Eenheid,Ref_value_month_2,Ref_value_month_0,Ref_value_month_minus2,Date,Value,Score,Abs
+1,Chemie,Chemische toestand,NL89_antwknpd,,0,0,0,2014,0,1,0
+1,Chemie,Prioritaire stoffen,NL89_antwknpd,,0,0,0,2014,0,1,0
+1,Chemie,Chemische toestand,NL89_spuiknl,,0,0,0,2014,0,1,0
+1,Chemie,Prioritaire stoffen,NL89_spuiknl,,0,0,0,2014,0,1,0
+1,Chemie,Chemische toestand,NL89_volkerak,,0,0,0,2014,0,1,0
+1,Chemie,Prioritaire stoffen,NL89_volkerak,,0,0,0,2014,0,1,0
+1,Chemie,Chemische toestand,NL89_zoommedt,,0,0,0,2014,0,1,0
+1,Chemie,Prioritaire stoffen,NL89_zoommedt,,0,0,0,2014,0,1,0
+1,Chemie,Chemische toestand,NL81_3,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL81_3,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL89_grevlemr,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL89_grevlemr,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL89_veersmr,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL89_veersmr,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL92_IJSSELMEER,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_IJSSELMEER,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL81_1,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL81_1,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL81_10,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL81_10,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL81_2,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL81_2,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL86_5,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL86_5,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL86_6,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL86_6,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL87_1,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL87_1,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL89_kantnzgt,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL89_kantnzgt,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL89_oostsde,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL89_oostsde,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL89_westsde,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL89_westsde,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL89_zwin,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL89_zwin,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL90_1,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL90_1,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL91JK,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL91JK,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL91MWK,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL91MWK,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL92_MARKERMEER,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_MARKERMEER,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL92_ZWARTEMEER,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_ZWARTEMEER,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL94_11,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL94_11,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL94_8,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL94_8,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL94_9,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL94_9,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL95_1A,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL95_1A,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL95_2A,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL95_2A,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL95_3A,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL95_3A,,0,0,0,2014,0,0,0
+1,Chemie,Chemische toestand,NL95_4A,,0,0,0,2014,0,0,0
+1,Chemie,Prioritaire stoffen,NL95_4A,,0,0,0,2014,0,0,0
+1,Chemie,Pesticiden,nl89_westsde,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL89_zwin,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,nl89_grevlemr,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL89_spuiknl,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,nl89_veersmr,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL89_volkerak,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,nl89_oostsde,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,nl89_antwknpd,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,nl89_zoommedt,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL87_1,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL94_11,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL93_TWENTHEKANALEN,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL92_IJSSELMEER,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL92_MARKERMEER,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL92_RANDMEREN_OOST,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL92_ZWARTEMEER,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL91MWK,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL90_1,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL95_4A,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL95_2A,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL95_3A,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL95_1A,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL94_9,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL94_8,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL86_6,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL86_5,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL81_1,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL81_10,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL81_3,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,NL81_2,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL95_1A,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL95_4A,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL95_3A,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL95_2A,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL94_11,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL94_9,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL94_8,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL93_TWENTHEKANALEN,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL92_RANDMEREN_OOST,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL92_ZWARTEMEER,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL92_IJSSELMEER,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL92_MARKERMEER,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL91JK,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL91MWK,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL90_1,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,nl89_zoommedt,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL89_volkerak,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL89_zwin,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,nl89_veersmr,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL89_spuiknl,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,nl89_grevlemr,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,nl89_oostsde,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,nl89_antwknpd,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL87_1,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL86_6,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL86_5,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL81_3,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL81_2,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL81_1,,0,0,0,2009,0,1,0
+1,Chemie,Zware metalen,NL81_10,,0,0,0,2009,0,1,0
+1,Chemie,Chemische toestand,nl89_antwknpd,,0,0,0,2009,0,1,0
+1,Chemie,Chemische toestand,NL89_spuiknl,,0,0,0,2009,0,1,0
+1,Chemie,Chemische toestand,nl89_veersmr,,0,0,0,2009,0,1,0
+1,Chemie,Chemische toestand,NL89_volkerak,,0,0,0,2009,0,1,0
+1,Chemie,Chemische toestand,nl89_zoommedt,,0,0,0,2009,0,1,0
+1,Chemie,Chemische toestand,nl89_grevlemr,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL95_1A,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL95_4A,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL95_3A,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL95_2A,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL94_9,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL94_11,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL94_8,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL93_TWENTHEKANALEN,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL92_MARKERMEER,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL92_ZWARTEMEER,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL92_RANDMEREN_OOST,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL92_IJSSELMEER,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL91JK,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL91MWK,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL90_1,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,nl89_zoommedt,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL89_volkerak,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,nl89_westsde,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL89_spuiknl,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,nl89_kantnzgt,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL89_zwin,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,nl89_veersmr,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,nl89_oostsde,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,nl89_antwknpd,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,nl89_grevlemr,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL87_1,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL86_5,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL86_6,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL81_1,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL81_2,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL81_3,,0,0,0,2009,0,1,0
+1,Chemie,Industriele verontreinigingen,NL81_10,,0,0,0,2009,0,1,0
+1,Chemie,Overige verontreinigende stoffen,NL89_spuiknl,,0,0,0,2009,0,1,0
+1,Chemie,Overige verontreinigende stoffen,nl89_grevlemr,,0,0,0,2009,0,1,0
+1,Chemie,Overige verontreinigende stoffen,NL89_volkerak,,0,0,0,2009,0,1,0
+1,Chemie,Overige verontreinigende stoffen,nl89_veersmr,,0,0,0,2009,0,1,0
+1,Chemie,Overige verontreinigende stoffen,nl89_antwknpd,,0,0,0,2009,0,1,0
+1,Chemie,Overige verontreinigende stoffen,nl89_zoommedt,,0,0,0,2009,0,1,0
+1,Chemie,Prioritaire stoffen,nl89_veersmr,,0,0,0,2009,0,1,0
+1,Chemie,Prioritaire stoffen,nl89_zoommedt,,0,0,0,2009,0,1,0
+1,Chemie,Prioritaire stoffen,NL89_spuiknl,,0,0,0,2009,0,1,0
+1,Chemie,Prioritaire stoffen,nl89_antwknpd,,0,0,0,2009,0,1,0
+1,Chemie,Prioritaire stoffen,NL89_volkerak,,0,0,0,2009,0,1,0
+1,Chemie,Prioritaire stoffen,nl89_grevlemr,,0,0,0,2009,0,1,0
+1,Chemie,Pesticiden,nl89_kantnzgt,,0,0,0,2009,0,0,0
+1,Chemie,Pesticiden,NL91JK,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL86_5,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL81_1,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL81_2,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL81_3,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL81_10,,0,0,0,2009,0,0,0
+1,Chemie,Zware metalen,nl89_westsde,,0,0,0,2009,0,0,0
+1,Chemie,Zware metalen,nl89_kantnzgt,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL95_2A,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL95_1A,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL95_3A,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL95_4A,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL94_11,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL94_8,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL94_9,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL92_ZWARTEMEER,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL92_MARKERMEER,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL92_IJSSELMEER,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL91MWK,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL91JK,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL90_1,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,nl89_oostsde,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL89_zwin,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,nl89_westsde,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,nl89_kantnzgt,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL87_1,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL86_5,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL86_6,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL81_1,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL81_2,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL81_3,,0,0,0,2009,0,0,0
+1,Chemie,Chemische toestand,NL81_10,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL95_2A,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL95_3A,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL95_4A,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL95_1A,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL94_9,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL94_8,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL94_11,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL92_IJSSELMEER,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL92_ZWARTEMEER,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL92_MARKERMEER,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL91JK,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL91MWK,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL90_1,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,nl89_kantnzgt,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL89_zwin,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,nl89_westsde,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,nl89_oostsde,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL87_1,,0,0,0,2009,0,0,0
+1,Chemie,Overige verontreinigende stoffen,NL86_6,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL95_2A,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL95_1A,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL95_3A,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL95_4A,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL94_8,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL94_11,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL94_9,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_MARKERMEER,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_ZWARTEMEER,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL92_IJSSELMEER,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL91JK,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL91MWK,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL90_1,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL89_zwin,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,nl89_oostsde,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,nl89_kantnzgt,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,nl89_westsde,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL87_1,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL86_6,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL86_5,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL81_3,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL81_1,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL81_10,,0,0,0,2009,0,0,0
+1,Chemie,Prioritaire stoffen,NL81_2,,0,0,0,2009,0,0,0
