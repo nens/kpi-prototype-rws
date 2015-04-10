@@ -5,6 +5,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Route = Router.Route;
+var Redirect = Router.Redirect;
 var NotFoundRoute = Router.NotFoundRoute;
 var DefaultRoute = Router.DefaultRoute;
 var Link = Router.Link;
@@ -347,7 +348,7 @@ var routes = (
     <Route name="chemie" handler={ChemieWrapper}/>    
     <Route name="ecologie" handler={EcologieWrapper}/>
     <Route name="eindoordeel" handler={EindoordeelWrapper}/>
-    <DefaultRoute handler={KPIWrapper}/>
+    <DefaultRoute handler={EindoordeelWrapper}/>
   </Route>
 );
 
