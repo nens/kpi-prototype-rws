@@ -89,24 +89,33 @@ var Map = React.createClass({
 		                    self.props.selectStadsdeel(feature.properties.owmnaam);
 		                });
 	            });
-	            // svg.selectAll("text")
-	            //     .data(json.features)
-	            //     .enter()
-	            //     .append("svg:text")
-	            //     .text(function(d){
-	            //         return d.properties.owmnaam;
-	            //     })
-	            //     .attr("x", function(d){
-	            //         return path.centroid(d)[0];
-	            //     })
-	            //     .attr("y", function(d){
-	            //         return  path.centroid(d)[1];
-	            //     })
-	            //     .attr("fill", "white")                
-	            //     .attr("text-anchor","middle")
-	            //     .attr('font-size','10pt');                
+	            svg.selectAll("text")
+	                .data(json.features)
+	                .enter()
+	                .append("svg:text")
+	                .text(function(d){
+	                    return '';
+	                })
+	                .attr("x", function(d){
+	                    return path.centroid(d)[0];
+	                })
+	                .attr("y", function(d){
+	                    return  path.centroid(d)[1];
+	                })
+	                .attr("fill", "none")
+	                .attr("stroke", "black")
+	                .attr("stroke-width", "1px")
+	                .attr("text-anchor","middle")
+	                .attr('font-size','12pt')
+	                .attr('fill-opacity',1)
+	                .attr('stroke-linecap','butt')
+                	.attr('stroke-linejoin','miter')
+            		.attr('stroke-opacity',1);
+
 	        }); 	           	
         }        
+
+
 
     },
     render: function() {
@@ -150,9 +159,9 @@ var Map = React.createClass({
 	    					if(item.Value != 'NULL') return item;
 	    				});
 	    				if(values[values.length - 1].Score) {
-		    				return d.key + ': ' + Number(Math.round(values[values.length - 1].Score));
+		    				return Number((values[values.length - 1].Score));
 	    				} else {
-	    					return d.key + ': ' + Number(Math.round(values[values.length - 1].Value));
+	    					return Number((values[values.length - 1].Value));
 	    				}
 	    			});
 		    }

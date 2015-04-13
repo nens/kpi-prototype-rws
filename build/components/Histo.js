@@ -101,12 +101,13 @@ var Histo = React.createClass({
         //     return <div style={{display:'none'}} />;
         // }
 
+
         if(chartType === 'real') {
-            lastValue = Math.round(values[values.length - 1].Abs) || 0;
+            lastValue = (values[values.length - 1].Abs) || 0;
             tooltipString = 'Aantal';
         } else {
             try {
-              lastValue = Math.round(values[values.length - 1].Score) || 0;  
+              lastValue = (values[values.length - 1].Score) || 0;  
             } catch(e){
               console.log(e);
               lastValue = 0;
@@ -198,18 +199,22 @@ var Histo = React.createClass({
           .attr("dy", ".71em")
           .style("text-anchor", "end");
 
-        try {
+        // try {
           if(chartType === 'pi') {
               var withoutNull = _.without(values, 'NULL');
-              svg.append('circle')
-                 .attr('class', 'sparkcircle')
-                 .attr('cx', x(parseDate(withoutNull[withoutNull.length - 1].Date)))
-                 .attr('cy', y(Number(withoutNull[withoutNull.length - 1].Score)))
-                 .attr('r', 5);
+              console.log('withoutNull', withoutNull);
+              console.log('values', values);
+              if(withoutNull.length > 0) {
+                svg.append('circle')
+                   .attr('class', 'sparkcircle')
+                   .attr('cx', x(parseDate(withoutNull[withoutNull.length - 1].Date)))
+                   .attr('cy', y(Number(withoutNull[withoutNull.length - 1].Score)))
+                   .attr('r', 5);
+              }
           }
-        } catch(error) {
-          console.log(error);
-        }
+        // } catch(error) {
+        //   console.log(error);
+        // }
 
         var path = svg.append("path")
           .datum(values)
@@ -264,8 +269,15 @@ var Histo = React.createClass({
             var x0 = x.invert(d3.mouse(this)[0]),
                 i = bisectDate(values, x0, 1),
                 d0 = values[i - 1],
-                d1 = values[i],
-                d = x0 - d0.Date > d1.Date - x0 ? d1 : d0;
+                d1 = values[i];
+
+            var d;
+            try {
+               d = x0 - d0.Date > d1.Date - x0 ? d1 : d0;
+            } catch(error) {
+               d = d1;
+            }
+                
 
             if(chartType === 'pi') {
                 focus.attr("transform", "translate(" + x(parseDate(d.Date)) + "," + y(d.Score) + ")");

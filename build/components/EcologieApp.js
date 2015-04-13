@@ -115,9 +115,16 @@ var EcologieApp = React.createClass({
 
     },
     handleSelection: function(selection) {
-        this.setState({
-            activeSelection: selection.title
-        });
+        var self = this;
+        if(self.state.activeSelection && self.state.activeSelection === selection.title) {
+            this.setState({
+                activeSelection: ''
+            });            
+        } else {
+            this.setState({
+                activeSelection: selection.title
+            });
+        }
         return selection;
     },
     setRefVal: function(val) {
@@ -160,6 +167,7 @@ var EcologieApp = React.createClass({
             } else {
                 values = filteredValues.filter(function(v) { if(v.key === self.state.stadsdeel) return v; });
             }
+            values = filteredValues;
 
             return <Histo
                         active={(self.state.activeSelection === title) ? true : false}
@@ -181,7 +189,7 @@ var EcologieApp = React.createClass({
                             <a href="#" className="home"><i className="fa fa-arrow-circle-o-left"/></a>&nbsp;<strong>KPI Ecologie</strong>&nbsp;
 
                             <ModalTrigger modal={<KPIModal weightData={weightSettings} />}>
-                                <Label style={{float:'right', cursor: 'pointer', fontSize:'1.1em',backgroundColor:Utils.quantize(this.props.kpiValue)}}>KPI: {Math.round(this.props.kpiValue)}</Label>
+                                <Label style={{float:'right', cursor: 'pointer', fontSize:'1.1em',backgroundColor:Utils.quantize(1)}}>KPI: 1</Label>
                             </ModalTrigger>
       
                             <ModalTrigger modal={<InfoModal />}>

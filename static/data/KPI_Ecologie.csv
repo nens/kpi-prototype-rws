@@ -1,307 +1,307 @@
 ID_PI,KPI,PI,Gebied,Eenheid,Ref_value_month_2,Ref_value_month_0,Ref_value_month_minus2,Date,Value,Score,Abs
-1,Ecologie,Nutrienten,NL86_5,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL86_6,,0,0,0,2014,0,0.7,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_antwknpd,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL89_antwknpd,,0,0,0,2014,0,0.7,0
-1,Ecologie,Biologie totaal,NL89_oostsde,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL89_spuiknl,,0,0,0,2014,0,0.7,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_veersmr,,0,0,0,2014,0,0.7,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL90_1,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL90_1,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL91JK,,0,0,0,2014,0,0.7,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL91MWK,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL91MWK,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL92_MARKERMEER,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.7,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
-1,Ecologie,Biologie totaal,NL87_1,,0,0,0,2014,0,0.7,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_grevlemr,,0,0,0,2014,0,0.7,0
-1,Ecologie,Nutrienten,NL89_grevlemr,,0,0,0,2014,0,0.7,0
-1,Ecologie,Biologie totaal,NL95_3A,,0,0,0,2014,0,0.7,0
-1,Ecologie,Biologie totaal,NL95_4A,,0,0,0,2014,0,0.7,0
-1,Ecologie,Biologie totaal,NL81_3,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL81_3,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL86_5,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL86_5,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL86_6,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL86_6,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_oostsde,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL89_oostsde,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL89_oostsde,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL89_veersmr,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL89_veersmr,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL89_veersmr,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL90_1,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL90_1,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL91JK,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL91JK,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL91MWK,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL91MWK,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL92_MARKERMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL94_11,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL81_10,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL81_10,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL81_2,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL81_2,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL87_1,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL87_1,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL87_1,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL89_grevlemr,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL89_grevlemr,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_volkerak,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL89_volkerak,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL89_westsde,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL89_westsde,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_zoommedt,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL89_zoommedt,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_zwin,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL89_zwin,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL89_zwin,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL89_zwin,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL94_9,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL94_9,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL95_1A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL95_1A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL95_1A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL95_1A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL95_2A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Biologie totaal,NL95_2A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL95_2A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL95_2A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL95_3A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL95_4A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Ecologische toestand,NL95_4A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL95_4A,,0,0,0,2014,0,0.5,0
-1,Ecologie,Nutrienten,NL81_3,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL89_antwknpd,,0,0,0,2014,0,0.3,0
-1,Ecologie,Ecologische toestand,NL89_antwknpd,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL89_kantnzgt,,0,0,0,2014,0,0.3,0
-1,Ecologie,Ecologische toestand,NL89_kantnzgt,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL89_spuiknl,,0,0,0,2014,0,0.3,0
-1,Ecologie,Ecologische toestand,NL89_spuiknl,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.3,0
-1,Ecologie,Ecologische toestand,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL92_MARKERMEER,,0,0,0,2014,0,0.3,0
-1,Ecologie,Ecologische toestand,NL92_MARKERMEER,,0,0,0,2014,0,0.3,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL81_1,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL81_1,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL81_1,,0,0,0,2009,0,0.3,0
 1,Ecologie,Ecologische toestand,NL81_1,,0,0,0,2014,0,0.3,0
-1,Ecologie,Nutrienten,NL81_1,,0,0,0,2014,0,0.3,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL81_10,,0,0,0,2014,0,0.3,0
-1,Ecologie,Nutrienten,NL81_10,,0,0,0,2014,0,0.3,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL81_2,,0,0,0,2014,0,0.3,0
-1,Ecologie,Nutrienten,NL81_2,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL89_volkerak,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL81_10,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL81_10,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL81_2,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL81_2,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL81_3,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL81_3,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL86_5,,0,0,0,2009,0,0.3,0
+1,Ecologie,Ecologische toestand,NL86_5,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL86_6,,0,0,0,2009,0,0.3,0
+1,Ecologie,Ecologische toestand,NL86_6,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL87_1,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL87_1,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL89_antwknpd,,0,0,0,2009,0,0.3,0
+1,Ecologie,Ecologische toestand,NL89_antwknpd,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL89_grevlemr,,0,0,0,2009,0,0.1,0
+1,Ecologie,Ecologische toestand,NL89_grevlemr,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL89_kantnzgt,,0,0,0,2009,0,0.1,0
+1,Ecologie,Ecologische toestand,NL89_kantnzgt,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL89_oostsde,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL89_oostsde,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL89_spuikNL,,0,0,0,2009,0,0.3,0
+1,Ecologie,Ecologische toestand,NL89_spuikNL,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL89_veersmr,,0,0,0,2009,0,0.1,0
+1,Ecologie,Ecologische toestand,NL89_veersmr,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL89_volkerak,,0,0,0,2009,0,0.3,0
 1,Ecologie,Ecologische toestand,NL89_volkerak,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL89_zoommedt,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL89_westsde,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL89_westsde,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL89_zoommedt,,0,0,0,2009,0,0.5,0
 1,Ecologie,Ecologische toestand,NL89_zoommedt,,0,0,0,2014,0,0.3,0
-1,Ecologie,Biologie totaal,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL89_zwin,,0,0,0,2009,0,0.3,0
+1,Ecologie,Ecologische toestand,NL89_zwin,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL90_1,,0,0,0,2009,0,0.3,0
+1,Ecologie,Ecologische toestand,NL90_1,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL91JK,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL91JK,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL91MWK,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL91MWK,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL92_IJSSELMEER,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.3,0
+1,Ecologie,Ecologische toestand,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL92_MARKERMEER,,0,0,0,2014,0,0.3,0
+1,Ecologie,Ecologische toestand,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
 1,Ecologie,Ecologische toestand,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.3,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL95_3A,,0,0,0,2014,0,0.3,0
-1,Ecologie,Nutrienten,NL95_3A,,0,0,0,2014,0,0.3,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL81_3,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL86_5,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL86_6,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_kantnzgt,,0,0,0,2014,0,0.1,0
-1,Ecologie,Nutrienten,NL89_kantnzgt,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_spuiknl,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL91JK,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL92_IJSSELMEER,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL94_11,,0,0,0,2014,0,0.1,0
-1,Ecologie,Biologie totaal,NL94_11,,0,0,0,2014,0,0.1,0
+1,Ecologie,Ecologische toestand,NL92_ZWARTEMEER,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL94_11,,0,0,0,2009,0,0.5,0
 1,Ecologie,Ecologische toestand,NL94_11,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL94_8,,0,0,0,2014,0,0.1,0
-1,Ecologie,Biologie totaal,NL94_8,,0,0,0,2014,0,0.1,0
+1,Ecologie,Ecologische toestand,NL94_8,,0,0,0,2009,0,0.5,0
 1,Ecologie,Ecologische toestand,NL94_8,,0,0,0,2014,0,0.1,0
-1,Ecologie,Nutrienten,NL94_8,,0,0,0,2014,0,0.1,0
-1,Ecologie,Algemene fysisch-chemische parameters,NL89_westsde,,0,0,0,2014,0,0.1,0
-1,Ecologie,Nutrienten,NL89_westsde,,0,0,0,2014,0,0.1,0
-1,Ecologie,Biologie totaal,NL94_9,,0,0,0,2014,0,0.1,0
+1,Ecologie,Ecologische toestand,NL94_9,,0,0,0,2009,0,0.5,0
 1,Ecologie,Ecologische toestand,NL94_9,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL81_3,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL86_5,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL86_6,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_antwknpd,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_kantnzgt,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_oostsde,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_spuiknl,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_veersmr,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL90_1,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL91JK,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL91MWK,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL92_IJSSELMEER,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL92_MARKERMEER,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL94_11,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL94_8,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL81_1,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL81_10,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL81_2,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL87_1,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_grevlemr,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_volkerak,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_westsde,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_zoommedt,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL89_zwin,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL92_ZWARTEMEER,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL94_9,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL95_1A,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL95_2A,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL95_3A,,0,0,0,2014,0,0.1,0
-1,Ecologie,Overige relevante verontreinigende stoffen,NL95_4A,,0,0,0,2014,0,0.1,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.7,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,nl89_veersmr,,0,0,0,2009,0,0.7,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,nl89_grevlemr,,0,0,0,2009,0,0.7,0
-1,Ecologische toestand,Biologie totaal,NL94_11,,0,0,0,2009,0,0.7,0
-1,Ecologische toestand,Biologie totaal,NL81_3,,0,0,0,2009,0,0.7,0
-1,Ecologische toestand,Ecologische toestand,NL95_2A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL95_4A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL95_3A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL95_1A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL94_9,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL94_11,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL94_8,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL92_IJSSELMEER,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL92_ZWARTEMEER,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL91JK,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL91MWK,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,nl89_oostsde,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,nl89_westsde,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,nl89_zoommedt,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL87_1,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL81_10,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL81_2,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL81_3,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL95_4A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL95_1A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL94_11,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL94_9,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL91JK,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL91MWK,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL90_1,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL89_spuiknl,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,nl89_oostsde,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL89_zwin,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL87_1,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL81_2,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL81_3,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL95_3A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL95_4A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL95_2A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL95_1A,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL94_9,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL94_8,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL92_ZWARTEMEER,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL92_IJSSELMEER,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL91JK,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL91MWK,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,nl89_oostsde,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,nl89_zoommedt,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,nl89_westsde,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL87_1,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL81_2,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Biologie totaal,NL81_10,,0,0,0,2009,0,0.5,0
-1,Ecologische toestand,Ecologische toestand,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,NL90_1,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,NL89_zwin,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,NL89_spuiknl,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,nl89_antwknpd,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,NL89_volkerak,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,NL86_6,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,NL86_5,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,NL81_1,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL95_3A,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL95_2A,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL89_volkerak,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,nl89_antwknpd,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,nl89_zoommedt,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL86_5,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL86_6,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL81_1,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL81_10,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,NL90_1,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,NL89_zwin,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,NL89_spuiknl,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,NL89_volkerak,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,nl89_antwknpd,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,NL86_5,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,NL86_6,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Biologie totaal,NL81_1,,0,0,0,2009,0,0.3,0
-1,Ecologische toestand,Ecologische toestand,nl89_veersmr,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Ecologische toestand,nl89_grevlemr,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Ecologische toestand,nl89_kantnzgt,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL94_8,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL92_IJSSELMEER,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,NL92_ZWARTEMEER,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,nl89_westsde,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Algemene fysisch-chemische parameters,nl89_kantnzgt,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Biologie totaal,nl89_grevlemr,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Biologie totaal,nl89_kantnzgt,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Biologie totaal,nl89_veersmr,,0,0,0,2009,0,0.1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL95_1A,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL95_2A,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL95_4A,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL95_3A,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL89_zwin,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,nl89_antwknpd,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL89_spuiknl,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,nl89_zoommedt,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,nl89_oostsde,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL81_1,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL81_2,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL81_10,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL81_3,,0,0,0,2009,0,1,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL94_8,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL94_9,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL94_11,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL92_ZWARTEMEER,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL92_MARKERMEER,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL92_IJSSELMEER,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL91JK,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL91MWK,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL90_1,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL89_volkerak,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,nl89_kantnzgt,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,nl89_veersmr,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,nl89_grevlemr,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,nl89_westsde,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL87_1,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL86_5,,0,0,0,2009,0,0,0
-1,Ecologische toestand,Overige relevante verontreinigende stoffen,NL86_6,,0,0,0,2009,0,0,0
+1,Ecologie,Ecologische toestand,NL95_1A,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL95_1A,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL95_2A,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL95_2A,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL95_3A,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL95_3A,,0,0,0,2014,0,0.5,0
+1,Ecologie,Ecologische toestand,NL95_4A,,0,0,0,2009,0,0.5,0
+1,Ecologie,Ecologische toestand,NL95_4A,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL81_1,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL81_1,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL81_10,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL81_10,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL81_2,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL81_2,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL81_3,,0,0,0,2009,0,0.7,0
+2,Ecologie,Biologie totaal,NL81_3,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL86_5,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL86_5,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL86_6,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL86_6,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL87_1,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL87_1,,0,0,0,2014,0,0.7,0
+2,Ecologie,Biologie totaal,NL89_antwknpd,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_antwknpd,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_grevlemr,,0,0,0,2009,0,0.1,0
+2,Ecologie,Biologie totaal,NL89_grevlemr,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL89_kantnzgt,,0,0,0,2009,0,0.1,0
+2,Ecologie,Biologie totaal,NL89_kantnzgt,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_oostsde,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL89_oostsde,,0,0,0,2014,0,0.7,0
+2,Ecologie,Biologie totaal,NL89_spuikNL,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_spuikNL,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_veersmr,,0,0,0,2009,0,0.1,0
+2,Ecologie,Biologie totaal,NL89_veersmr,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL89_volkerak,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_volkerak,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_westsde,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL89_westsde,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL89_zoommedt,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL89_zoommedt,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_zwin,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL89_zwin,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL90_1,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL90_1,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL91JK,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL91JK,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL91MWK,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL91MWK,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL92_IJSSELMEER,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.3,0
+2,Ecologie,Biologie totaal,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL92_MARKERMEER,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.3,0
+2,Ecologie,Biologie totaal,NL92_ZWARTEMEER,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL94_11,,0,0,0,2009,0,0.7,0
+2,Ecologie,Biologie totaal,NL94_11,,0,0,0,2014,0,0.1,0
+2,Ecologie,Biologie totaal,NL94_8,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL94_8,,0,0,0,2014,0,0.1,0
+2,Ecologie,Biologie totaal,NL94_9,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL94_9,,0,0,0,2014,0,0.1,0
+2,Ecologie,Biologie totaal,NL95_1A,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL95_1A,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL95_2A,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL95_2A,,0,0,0,2014,0,0.5,0
+2,Ecologie,Biologie totaal,NL95_3A,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL95_3A,,0,0,0,2014,0,0.7,0
+2,Ecologie,Biologie totaal,NL95_4A,,0,0,0,2009,0,0.5,0
+2,Ecologie,Biologie totaal,NL95_4A,,0,0,0,2014,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL81_1,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL81_1,,0,0,0,2014,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL81_10,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL81_10,,0,0,0,2014,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL81_2,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL81_2,,0,0,0,2014,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL81_3,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL81_3,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL86_5,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL86_5,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL86_6,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL86_6,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL87_1,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL87_1,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_antwknpd,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_antwknpd,,0,0,0,2014,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_grevlemr,,0,0,0,2009,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_grevlemr,,0,0,0,2014,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_kantnzgt,,0,0,0,2009,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_kantnzgt,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_oostsde,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_oostsde,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_spuikNL,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_spuikNL,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_veersmr,,0,0,0,2009,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_veersmr,,0,0,0,2014,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_volkerak,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_volkerak,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_westsde,,0,0,0,2009,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_westsde,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_zoommedt,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_zoommedt,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_zwin,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL89_zwin,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL90_1,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL90_1,,0,0,0,2014,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL91JK,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL91JK,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL91MWK,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL91MWK,,0,0,0,2014,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_IJSSELMEER,,0,0,0,2009,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_IJSSELMEER,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_MARKERMEER,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_MARKERMEER,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_ZWARTEMEER,,0,0,0,2009,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
+3,Ecologie,Algemene fysisch chemische parameters,NL94_11,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL94_11,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL94_8,,0,0,0,2009,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL94_8,,0,0,0,2014,0,0.1,0
+3,Ecologie,Algemene fysisch chemische parameters,NL94_9,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL94_9,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL95_1A,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL95_1A,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL95_2A,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL95_2A,,0,0,0,2014,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL95_3A,,0,0,0,2009,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL95_3A,,0,0,0,2014,0,0.3,0
+3,Ecologie,Algemene fysisch chemische parameters,NL95_4A,,0,0,0,2009,0,0.5,0
+3,Ecologie,Algemene fysisch chemische parameters,NL95_4A,,0,0,0,2014,0,0.5,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL81_1,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL81_1,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL81_10,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL81_10,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL81_2,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL81_2,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL81_3,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL81_3,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL86_5,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL86_5,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL86_6,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL86_6,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL87_1,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL87_1,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_antwknpd,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_antwknpd,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_grevlemr,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_grevlemr,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_kantnzgt,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_kantnzgt,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_oostsde,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_oostsde,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_spuikNL,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_spuikNL,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_veersmr,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_veersmr,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_volkerak,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_volkerak,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_westsde,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_westsde,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_zoommedt,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_zoommedt,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_zwin,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL89_zwin,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL90_1,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL90_1,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL91JK,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL91JK,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL91MWK,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL91MWK,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_IJSSELMEER,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_IJSSELMEER,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_MARKERMEER,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_MARKERMEER,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_RANDMEREN_OOST,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_RANDMEREN_ZUID,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_ZWARTEMEER,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL92_ZWARTEMEER,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL93_TWENTHEKANALEN,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL94_11,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL94_11,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL94_8,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL94_8,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL94_9,,0,0,0,2009,0,0,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL94_9,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL95_1A,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL95_1A,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL95_2A,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL95_2A,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL95_3A,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL95_3A,,0,0,0,2014,0,0.1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL95_4A,,0,0,0,2009,0,1,0
+4,Ecologie,Overige relevante verontreinigende stoffen,NL95_4A,,0,0,0,2014,0,0.1,0
+5,Ecologie,Nutrienten,NL81_1,,0,0,0,2014,0,0.3,0
+5,Ecologie,Nutrienten,NL81_10,,0,0,0,2014,0,0.3,0
+5,Ecologie,Nutrienten,NL81_2,,0,0,0,2014,0,0.3,0
+5,Ecologie,Nutrienten,NL81_3,,0,0,0,2014,0,0.3,0
+5,Ecologie,Nutrienten,NL86_5,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL86_6,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL87_1,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL89_antwknpd,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL89_grevlemr,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL89_kantnzgt,,0,0,0,2014,0,0.1,0
+5,Ecologie,Nutrienten,NL89_oostsde,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL89_spuikNL,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL89_veersmr,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL89_volkerak,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL89_westsde,,0,0,0,2014,0,0.1,0
+5,Ecologie,Nutrienten,NL89_zoommedt,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL89_zwin,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL90_1,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL91JK,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL91MWK,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL92_IJSSELMEER,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL92_KETELMEER_VOSSEMEER,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL92_MARKERMEER,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL92_RANDMEREN_OOST,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL92_RANDMEREN_ZUID,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL92_ZWARTEMEER,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL93_TWENTHEKANALEN,,0,0,0,2014,0,0.7,0
+5,Ecologie,Nutrienten,NL94_11,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL94_8,,0,0,0,2014,0,0.1,0
+5,Ecologie,Nutrienten,NL94_9,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL95_1A,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL95_2A,,0,0,0,2014,0,0.5,0
+5,Ecologie,Nutrienten,NL95_3A,,0,0,0,2014,0,0.3,0
+5,Ecologie,Nutrienten,NL95_4A,,0,0,0,2014,0,0.5,0

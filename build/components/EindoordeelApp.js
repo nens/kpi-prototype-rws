@@ -83,7 +83,7 @@ var EindoordeelApp = React.createClass({
 
             // Format the csv (parse month/year to better date etc)
             csv.map(function(d) {
-                d.Date = moment(d.Date, 'MMM/YY').format('MM/DD/YYYY');
+                d.Date = moment(d.Date, 'YYYY').format('MM/DD/YYYY');
                 d.month = moment(d.Date).month() + 1; // Zero-based!
             });
 
@@ -115,16 +115,19 @@ var EindoordeelApp = React.createClass({
 
     },
     handleSelection: function(selection) {
-        this.setState({
-            activeSelection: selection.title
-        });
+        var self = this;
+        if(self.state.activeSelection && self.state.activeSelection === selection.title) {
+            this.setState({
+                activeSelection: ''
+            });            
+        } else {
+            this.setState({
+                activeSelection: selection.title
+            });
+        }
         return selection;
     },
     setRefVal: function(val) {
-        // console.log('setRefVal', val);
-        // this.setState({
-        //     refval: val
-        // });
         return val;
     },        
     render: function() {
@@ -132,7 +135,9 @@ var EindoordeelApp = React.createClass({
         var self = this;
         var perGebied, filteredPIList, currentPIValues = [];
 
+
         if(self.state.stadsdeel && self.state.activeSelection) {
+
             filteredPIList = self.state.pis.filter(function(pi) {
                 if(pi.key === self.state.activeSelection) return pi;
             })[0].values;
@@ -156,10 +161,25 @@ var EindoordeelApp = React.createClass({
                 .entries(pigroup.values);
 
             if(self.state.stadsdeel === config.cityName) {
-                values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });    
+                values = filteredValues.filter(function(v) { 
+                    console.log('A v.key', v.key);
+                    console.log('A config.cityName', config.cityName);                                            
+                    if(v.key === config.cityName) {
+
+                        return v;
+                    }
+                });    
             } else {
-                values = filteredValues.filter(function(v) { if(v.key === self.state.stadsdeel) return v; });
+                values = filteredValues.filter(function(v) {
+                    console.log('B v.key', v.key);
+                    console.log('B self.state.stadsdeel', self.state.stadsdeel);
+                    if(v.key === self.state.stadsdeel) {
+
+                        return v; 
+                    }
+                });
             }
+            values = filteredValues;
 
             return <Histo
                         active={(self.state.activeSelection === title) ? true : false}
@@ -181,7 +201,7 @@ var EindoordeelApp = React.createClass({
                             <a href="#" className="home"><i className="fa fa-arrow-circle-o-left"/></a>&nbsp;<strong>KPI Eindoordeel</strong>&nbsp;
 
                             <ModalTrigger modal={<KPIModal weightData={weightSettings} />}>
-                                <Label style={{float:'right', cursor: 'pointer', fontSize:'1.1em',backgroundColor:Utils.quantize(this.props.kpiValue)}}>KPI: {Math.round(this.props.kpiValue)}</Label>
+                                <Label style={{float:'right', cursor: 'pointer', fontSize:'1.1em',backgroundColor:Utils.quantize(1)}}>KPI: 1</Label>
                             </ModalTrigger>
       
                             <ModalTrigger modal={<InfoModal />}>

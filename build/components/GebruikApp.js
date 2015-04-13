@@ -82,7 +82,7 @@ var GebruikApp = React.createClass({
 
             // Format the csv (parse month/year to better date etc)
             csv.map(function(d) {
-                d.Date = moment(d.Date, 'MMM/YY').format('MM/DD/YYYY');
+                d.Date = moment(d.Date, 'YYYY').format('MM/DD/YYYY');
                 d.month = moment(d.Date).month() + 1; // Zero-based!
             });
 

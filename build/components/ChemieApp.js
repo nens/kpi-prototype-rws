@@ -85,7 +85,7 @@ var ChemieApp = React.createClass({
 
             // Format the csv (parse month/year to better date etc)
             csv.map(function(d) {
-                d.Date = moment(d.Date, 'MMM/YY').format('MM/DD/YYYY');
+                d.Date = moment(d.Date, 'YYYY').format('MM/DD/YYYY');
                 d.month = moment(d.Date).month() + 1; // Zero-based!
             });
 
@@ -117,9 +117,16 @@ var ChemieApp = React.createClass({
 
     },
     handleSelection: function(selection) {
-        this.setState({
-            activeSelection: selection.title
-        });
+        var self = this;
+        if(self.state.activeSelection && self.state.activeSelection === selection.title) {
+            this.setState({
+                activeSelection: ''
+            });            
+        } else {
+            this.setState({
+                activeSelection: selection.title
+            });
+        }
         return selection;
     },
     setRefVal: function(val) {
@@ -159,10 +166,24 @@ var ChemieApp = React.createClass({
                 .entries(pigroup.values);
 
             if(self.state.stadsdeel === config.cityName) {
-                values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });    
+                values = filteredValues.filter(function(v) { 
+                    // console.log('A v.key', v.key);
+                    if(v.key === config.cityName) {
+                        console.log('A v.key', v.key);
+                        console.log('A config.cityName', config.cityName);                                            
+                        return v;
+                    }
+                });    
             } else {
-                values = filteredValues.filter(function(v) { if(v.key === self.state.stadsdeel) return v; });
+                values = filteredValues.filter(function(v) {
+                    if(v.key === self.state.stadsdeel) {
+                        console.log('B v.key', v.key);
+                        console.log('B self.state.stadsdeel', self.state.stadsdeel);
+                        return v; 
+                    }
+                });
             }
+            values = filteredValues;
 
             return <Histo
                         active={(self.state.activeSelection === title) ? true : false}
@@ -170,8 +191,8 @@ var ChemieApp = React.createClass({
                         tabIndex={i+1}
                         title={title}
                         period={window.period}
-                        handleSelection={self.handleSelection}
                         setRefVal={self.setRefVal}
+                        handleSelection={self.handleSelection}
                         values={values.length < 1 ? [] : values[0].values} />
         });
 
@@ -184,7 +205,7 @@ var ChemieApp = React.createClass({
                             <a href="#" className="home"><i className="fa fa-arrow-circle-o-left"/></a>&nbsp;<strong>KPI Chemie</strong>&nbsp;
 
                             <ModalTrigger modal={<KPIModal weightData={weightSettings} />}>
-                                <Label style={{float:'right', cursor: 'pointer', fontSize:'1.1em',backgroundColor:Utils.quantize(this.props.kpiValue)}}>KPI: {Math.round(this.props.kpiValue)}</Label>
+                                <Label style={{float:'right', cursor: 'pointer', fontSize:'1.1em',backgroundColor:Utils.quantize(1)}}>KPI: 1</Label>
                             </ModalTrigger>
       
                             <ModalTrigger modal={<InfoModal />}>

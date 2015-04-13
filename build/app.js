@@ -82,43 +82,43 @@ var App = React.createClass({
   },
   componentDidMount: function() {
     var self = this;
-      d3.csv("static/data/KPI.csv", function (csv) {
+    //   d3.csv("static/data/KPI.csv", function (csv) {
 
-          // Format the csv (parse month/year to better date etc)
-          csv.map(function(d) {
-              d.Date = moment(d.Date, 'MMM/YY').format('MM/DD/YYYY');
-              d.month = moment(d.Date).month() + 1; // Zero-based!
-          });
+    //       // Format the csv (parse month/year to better date etc)
+    //       csv.map(function(d) {
+    //           d.Date = moment(d.Date, 'MMM/YY').format('MM/DD/YYYY');
+    //           d.month = moment(d.Date).month() + 1; // Zero-based!
+    //       });
 
-          // Group the data by PI
-          var data = d3.nest()
-              .key(function(d) { return d.KPI; })
-              .entries(csv);
+    //       // Group the data by PI
+    //       var data = d3.nest()
+    //           .key(function(d) { return d.KPI; })
+    //           .entries(csv);
 
-          var pisArray = data.map(function(obj) {
-              var values = obj.values.filter(function(item) {
-                if(item.Value != 'NULL') return item;
-              });
+    //       var pisArray = data.map(function(obj) {
+    //           var values = obj.values.filter(function(item) {
+    //             if(item.Value != 'NULL') return item;
+    //           });
 
-              return {
-                  'key': obj.key, 
-                  'value': values[values.length - 1].Value
-              };
-          });
-          self.setState({'pis': pisArray});
-    });
+    //           return {
+    //               'key': obj.key, 
+    //               'value': values[values.length - 1].Value
+    //           };
+    //       });
+    //       self.setState({'pis': pisArray});
+    // });
 
   },
   render: function () {
     var self = this;
 
-    if(self.isMounted()) {
-      tevredenheidValue = _.where(self.state.pis, {key: "TEVREDENHEID"})[0].value;
-      planrealisatieValue = _.where(self.state.pis, {key: "PLANREALISATIE"})[0].value;
-      toestandValue = _.where(self.state.pis, {key: "TOESTAND"})[0].value;
-      omgevingValue = _.where(self.state.pis, {key: "OMGEVING"})[0].value;
-      gebruikValue = _.where(self.state.pis, {key: "GEBRUIK"})[0].value;
-    }
+    // if(self.isMounted()) {
+    //   tevredenheidValue = _.where(self.state.pis, {key: "TEVREDENHEID"})[0].value;
+    //   planrealisatieValue = _.where(self.state.pis, {key: "PLANREALISATIE"})[0].value;
+    //   toestandValue = _.where(self.state.pis, {key: "TOESTAND"})[0].value;
+    //   omgevingValue = _.where(self.state.pis, {key: "OMGEVING"})[0].value;
+    //   gebruikValue = _.where(self.state.pis, {key: "GEBRUIK"})[0].value;
+    // }
     
     return (
           <div className="">
@@ -146,8 +146,8 @@ var App = React.createClass({
                             <Link to="eindoordeel">
                               <img src={iconOmgeving} alt="Omgeving" className="kpi-icon" />
                               &nbsp;Eindoordeel
-                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(omgevingValue)}}>
-                                {Math.round(omgevingValue)}
+                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(1)}}>
+                                1
                               </Label>
                             </Link>
                           </li>                        
@@ -155,8 +155,8 @@ var App = React.createClass({
                             <Link to="chemie">
                               <img src={iconPlanning} alt="Planning" className="kpi-icon" />
                               &nbsp;Chemie
-                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(planrealisatieValue)}}>
-                                {Math.round(planrealisatieValue)}
+                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(1)}}>
+                                1
                               </Label>
                             </Link>
                           </li>
@@ -164,8 +164,8 @@ var App = React.createClass({
                             <Link to="ecologie">
                               <img src={iconToestand} alt="Toestand" className="kpi-icon" />
                               &nbsp;Ecologie
-                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(toestandValue)}}>
-                                {Math.round(toestandValue)}
+                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(1)}}>
+                                1
                               </Label>
                             </Link>
                           </li>
@@ -173,8 +173,8 @@ var App = React.createClass({
         										<Link to="biologie">
         											<img src={iconTevredenheid} alt="Biologie" className="kpi-icon" />
         											&nbsp;Biologie
-                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(tevredenheidValue)}}>
-                                {Math.round(tevredenheidValue)}
+                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(1)}}>
+                                1
                               </Label>
         										</Link>
         									</li>
