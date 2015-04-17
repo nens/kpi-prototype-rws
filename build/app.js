@@ -27,6 +27,8 @@ var TabPane = require('react-bootstrap').TabPane;
 var DropdownButton = require('react-bootstrap').DropdownButton;
 var MenuItem = require('react-bootstrap').MenuItem;
 var Table = require('react-bootstrap').Table;
+var OverlayTrigger = require('react-bootstrap').OverlayTrigger;
+var Tooltip = require('react-bootstrap').Tooltip;
 var DateTimePicker = require('react-widgets').DateTimePicker;
 var Promise = require('es6-promise').Promise;
 
@@ -53,6 +55,7 @@ var iconToestand = require('./images/icon-toestand.png');
 var iconOmgeving = require('./images/icon-omgeving.png');
 var iconGebruik = require('./images/icon-gebruik.png');
 var iconPlanning = require('./images/icon-planning.png');
+var iconLizard = require('./images/icon-lizard.png');
 
 var Utils = require('./components/Utils');
 var config = require('./config');
@@ -125,14 +128,20 @@ var App = React.createClass({
             <div className="container-full subHeadWrapper">
               <Grid className="">
                   <Row className="subHead">
-                    <Col xs={0} md={6}>
-                      <a href="./index.html" className="home"><h2 style={{fontFamily:'Geogroteque-Light'}}><strong>{config.dashboardName}</strong> KPI Dashboard</h2></a>
+                    <Col xs={0} md={12}>
+                      <a href="./index.html" className="home"><h2 style={{fontFamily:'Geogroteque-Light'}}><strong>{config.dashboardName}</strong> KRW Dashboard</h2></a>         
+                      <a style={{position:'absolute', top:5, left:415}} target="_blank"
+                         href="https://demo.lizard.net/map/topography,waterchain,message/point@52.3826,5.2477,12/Jan,01,2013-Jan,01,2014">
+                         <OverlayTrigger placement="bottom" overlay={<Tooltip><strong>Bekijken in Lizard</strong></Tooltip>}>                               
+                             <img width="25" style={{margin:'0px 0px 5px 5px'}} src={iconLizard} />
+                         </OverlayTrigger>
+                      </a>                      
                     </Col>
-                    <Col xs={6} md={6} className="period-selection">
-                    	<PeriodSelection 
-                    		selectNewDate={this.selectNewDate} 
-                    		currentDate={this.state.currentDate} />
-                    </Col>               
+                    {/*<Col xs={6} md={6} className="period-selection">*/}
+                    	{/*<PeriodSelection */}
+                    		{/*selectNewDate={this.selectNewDate} */}
+                    		{/*currentDate={this.state.currentDate} />*/}
+                    {/*</Col>               */}
                   </Row>
                 </Grid>
               </div>

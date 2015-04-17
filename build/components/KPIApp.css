@@ -365,6 +365,9 @@ input[type=number]::-webkit-outer-spin-button {
 	color: #fff !important;
 }
 
+.first {
+	background-color: #ccc !important;
+}
 
 
 

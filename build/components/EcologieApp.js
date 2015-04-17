@@ -184,27 +184,6 @@ var EcologieApp = React.createClass({
         return (
               <Grid>
                 <Row>
-                    <Col md={6} xs={12} id="fixedheader" style={{margin:'0 0 10px 0'}}>
-                        <h2 style={{fontSize:'2em'}}>
-                            <a href="#" className="home"><i className="fa fa-arrow-circle-o-left"/></a>&nbsp;<strong>KPI Ecologie</strong>&nbsp;
-
-                            <ModalTrigger modal={<KPIModal weightData={weightSettings} />}>
-                                <Label style={{float:'right', cursor: 'pointer', fontSize:'1.1em',backgroundColor:Utils.quantize(1)}}>KPI: 1</Label>
-                            </ModalTrigger>
-      
-                            <ModalTrigger modal={<InfoModal />}>
-                                <i style={{cursor: 'pointer'}} className="fa fa-info-circle" />
-                            </ModalTrigger>                            
-                            <a target="_blank"
-                               href="https://demo.lizard.net/map/topography,waterchain,message/point@52.3826,5.2477,12/Jan,01,2013-Jan,01,2014">
-                               <OverlayTrigger placement="bottom" overlay={<Tooltip><strong>Bekijken in Lizard</strong></Tooltip>}>                               
-                                   <img width="25" style={{margin:'0px 0px 5px 5px'}} src={iconLizard} />
-                               </OverlayTrigger>
-                            </a>
-                        </h2>
-                    </Col>
-                </Row>
-                <Row>
                     <Col xs={12} md={6}>
                         {histograms}
                     </Col>

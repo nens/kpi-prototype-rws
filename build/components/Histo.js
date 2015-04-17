@@ -88,6 +88,7 @@ var Histo = React.createClass({
     render: function() {
 
         var self = this;
+        var count = this.props.key;
         var title = this.props.title;
         var chartType = this.state.chartType;
         var values = this.props.values;
@@ -198,6 +199,15 @@ var Histo = React.createClass({
           .attr("y", 6)
           .attr("dy", ".71em")
           .style("text-anchor", "end");
+
+        svg.selectAll("bar")
+            .data(values)
+          .enter().append("rect")
+            .style("fill", "steelblue")
+            .attr("x", function(d) { return x(d.Date) - .5; })
+            .attr("width", 8)
+            .attr("y", function(d) { return y(d.Score); })
+            .attr("height", function(d) { return height - y(d.Score); });
 
         // try {
           if(chartType === 'pi') {
@@ -317,11 +327,13 @@ var Histo = React.createClass({
 
         self.props.setRefVal(refval);
 
+
         var alarmClasses = cx({
           'danger': alarmClass
         });
 
         var classesTitlebar = cx({
+            'first': self.props.tabIndex === 1,
             'panel-heading': true,
             'rightarrowdiv': self.props.active,
             'active': self.props.active
