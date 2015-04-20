@@ -132,13 +132,32 @@ var Histo = React.createClass({
             startYear = moment('2014').subtract(5, 'years');    
         }
         
+        d3.select('#'+title.replace(/ /g, '-')).select('svg').remove(); // This should not be necessary, break up d3 into smaller components?
+
+        // Dynamic SVG element creation
+        var svg = d3.select('#'+title.replace(/ /g, '-')).append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+        // Scale and domain setup
+        // 
+
         var x = d3.time.scale()
             .range([0, width])
-            .domain([startYear.toDate(), moment('12-30-2014').toDate()]).clamp(true);
+            .domain([moment('1-1-2009').toDate(), moment('12-31-2014').toDate()]).clamp(true);
+
+            // debugger;
 
         var y = d3.scale.linear()
-            .range([height, 1]);
+            .range([height, 1])
+            .domain([0, 1]);
 
+
+        // Axis setup
         var xAxis = d3.svg.axis()
             .scale(x)
             .tickFormat(d3.time.format("%m/%y"))
@@ -149,34 +168,15 @@ var Histo = React.createClass({
             .scale(y)
             .orient("left");
 
-        if(chartType === 'real') {
-            line = d3.svg.line()
-                .defined(function(d) { return d.Abs != 'NULL'; })
-                .interpolate("cardinal")
-                .x(function(d) { return x(parseDate(d.Date)); })
-                .y(function(d) { return y(Number(d.Abs)); });
-        } else {
-            line = d3.svg.line()
-                .defined(function(d) { return d.Score != 'NULL'; })
-                .x(function(d) { return x(parseDate(d.Date)); })
-                .y(function(d) { return y(Number(d.Score)); });
-        }
+
+        // Line element configuration
+        line = d3.svg.line()
+            .defined(function(d) { return d.Score != 'NULL'; })
+            .x(function(d) { return x(parseDate(d.Date)); })
+            .y(function(d) { return y(Number(d.Score)); });
 
 
-        d3.select('#'+title.replace(/ /g, '-')).select('svg').remove(); // This should not be necessary, break up d3 into smaller components?
-
-        var svg = d3.select('#'+title.replace(/ /g, '-')).append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-          .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-        if(chartType === 'real') {
-            y.domain(d3.extent(values, function(d) { return Number(d.Abs); }));
-        } else {
-            y.domain([0, 1]);    
-        }
-        
+        // Appending x axis
         var xaxis = svg.append("g")
           .attr("class", "x axis")
           .attr("transform", "translate(0," + height + ")")
@@ -190,6 +190,7 @@ var Histo = React.createClass({
                 return "rotate(-65)";
             });
 
+        // Appending y axis
         svg.append("g")
           .attr("class", "y axis")
           .call(yAxis)
@@ -200,52 +201,19 @@ var Histo = React.createClass({
           .attr("dy", ".71em")
           .style("text-anchor", "end");
 
+
         svg.selectAll("bar")
             .data(values)
           .enter().append("rect")
             .style("fill", "steelblue")
-            .attr("x", function(d) { return x(d.Date) - .5; })
-            .attr("width", 8)
-            .attr("y", function(d) { return y(d.Score); })
+            .attr("x", function(d) {
+              return x(parseDate(d.Date)) - .5;
+            })
+            .attr("width", 70)
+            .attr("y", function(d) {
+              return y(d.Score);
+            })
             .attr("height", function(d) { return height - y(d.Score); });
-
-        // try {
-          if(chartType === 'pi') {
-              var withoutNull = _.without(values, 'NULL');
-              console.log('withoutNull', withoutNull);
-              console.log('values', values);
-              if(withoutNull.length > 0) {
-                svg.append('circle')
-                   .attr('class', 'sparkcircle')
-                   .attr('cx', x(parseDate(withoutNull[withoutNull.length - 1].Date)))
-                   .attr('cy', y(Number(withoutNull[withoutNull.length - 1].Score)))
-                   .attr('r', 5);
-              }
-          }
-        // } catch(error) {
-        //   console.log(error);
-        // }
-
-        var path = svg.append("path")
-          .datum(values)
-          .attr("class", "line")
-          .attr("d", line);
-
-        path.each(function(d) { d.totalLength = this.getTotalLength(); }); // Add total length per path, needed for animating over full length
-
-        if(chartType === 'pi') {
-             path
-                  .attr("stroke-dasharray", function(d) { 
-                    return d.totalLength + " " + d.totalLength;
-                  })
-                  .attr("stroke-dashoffset", function(d) {
-                    return d.totalLength;
-                  })
-                  .transition()
-                    .duration(1000)
-                    .ease("linear")
-                    .attr("stroke-dashoffset", 0);
-        }
 
         
           var bisectDate = d3.bisector(function(d) {
@@ -287,15 +255,14 @@ var Histo = React.createClass({
             } catch(error) {
                d = d1;
             }
-                
 
-            if(chartType === 'pi') {
-                focus.attr("transform", "translate(" + x(parseDate(d.Date)) + "," + y(d.Score) + ")");
-                focus.select("text").text(d.Score);
-            } else {
-                focus.attr("transform", "translate(" + x(parseDate(d.Date)) + "," + y(d.Abs) + ")");
-                focus.select("text").text(d.Abs);
+            try {                
+              focus.attr("transform", "translate(" + (x(parseDate(d.Date))+30) + "," + y(d.Score) + ")");
+              focus.select("text").text(d.Score);
+            } catch(error) {
+              console.log(error);
             }
+
           }
 
         var max = d3.max(values, function(d) { return Number(d.Abs); });
@@ -362,7 +329,7 @@ var Histo = React.createClass({
 
               <div style={{position:'relative'}} className={classesTitlebar}>
                     <OverlayTrigger placement="right" overlay={<Tooltip><strong>{tooltipString}</strong></Tooltip>}>
-                        <Label onClick={this.toggleGraph} 
+                        <Label 
                                style={{float:'right', fontSize:'1.1em', cursor: 'pointer', backgroundColor: bgCol, color: txtCol}}>
                                {lastValue} {(self.state.chartType === 'pi') ? '' : ' ('+alarmTxt+')'}
                         </Label>

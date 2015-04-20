@@ -129,7 +129,7 @@ ul#brandcarousel li a {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e0e2e4',GradientType=0 );
 }	
 ul#brandcarousel li a.active {
-	border-bottom: 2px solid #434950;
+	border-bottom: 5px solid #434950;
 }
 
 

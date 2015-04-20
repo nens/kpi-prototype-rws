@@ -77,51 +77,16 @@ var App = React.createClass({
   		'currentDate': 5
   	};
   },
+
   selectNewDate: function(date) {
   	window.period.years = date;
   	this.setState({
   		'currentDate': date
   	});
   },
-  componentDidMount: function() {
-    var self = this;
-    //   d3.csv("static/data/KPI.csv", function (csv) {
 
-    //       // Format the csv (parse month/year to better date etc)
-    //       csv.map(function(d) {
-    //           d.Date = moment(d.Date, 'MMM/YY').format('MM/DD/YYYY');
-    //           d.month = moment(d.Date).month() + 1; // Zero-based!
-    //       });
-
-    //       // Group the data by PI
-    //       var data = d3.nest()
-    //           .key(function(d) { return d.KPI; })
-    //           .entries(csv);
-
-    //       var pisArray = data.map(function(obj) {
-    //           var values = obj.values.filter(function(item) {
-    //             if(item.Value != 'NULL') return item;
-    //           });
-
-    //           return {
-    //               'key': obj.key, 
-    //               'value': values[values.length - 1].Value
-    //           };
-    //       });
-    //       self.setState({'pis': pisArray});
-    // });
-
-  },
   render: function () {
     var self = this;
-
-    // if(self.isMounted()) {
-    //   tevredenheidValue = _.where(self.state.pis, {key: "TEVREDENHEID"})[0].value;
-    //   planrealisatieValue = _.where(self.state.pis, {key: "PLANREALISATIE"})[0].value;
-    //   toestandValue = _.where(self.state.pis, {key: "TOESTAND"})[0].value;
-    //   omgevingValue = _.where(self.state.pis, {key: "OMGEVING"})[0].value;
-    //   gebruikValue = _.where(self.state.pis, {key: "GEBRUIK"})[0].value;
-    // }
     
     return (
           <div className="">
@@ -131,17 +96,12 @@ var App = React.createClass({
                     <Col xs={0} md={12}>
                       <a href="./index.html" className="home"><h2 style={{fontFamily:'Geogroteque-Light'}}><strong>{config.dashboardName}</strong> KRW Dashboard</h2></a>         
                       <a style={{position:'absolute', top:5, left:415}} target="_blank"
-                         href="https://demo.lizard.net/map/topography,waterchain,message/point@52.3826,5.2477,12/Jan,01,2013-Jan,01,2014">
+                         href="https://rws-efcis.staging.lizard.net/">
                          <OverlayTrigger placement="bottom" overlay={<Tooltip><strong>Bekijken in Lizard</strong></Tooltip>}>                               
-                             <img width="25" style={{margin:'0px 0px 5px 5px'}} src={iconLizard} />
+                             <img width="35" style={{margin:'10px 0px 5px 5px'}} src={iconLizard} />
                          </OverlayTrigger>
                       </a>                      
                     </Col>
-                    {/*<Col xs={6} md={6} className="period-selection">*/}
-                    	{/*<PeriodSelection */}
-                    		{/*selectNewDate={this.selectNewDate} */}
-                    		{/*currentDate={this.state.currentDate} />*/}
-                    {/*</Col>               */}
                   </Row>
                 </Grid>
               </div>
@@ -155,36 +115,24 @@ var App = React.createClass({
                             <Link to="eindoordeel">
                               <img src={iconOmgeving} alt="Omgeving" className="kpi-icon" />
                               &nbsp;Eindoordeel
-                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(1)}}>
-                                1
-                              </Label>
                             </Link>
                           </li>                        
                           <li id="planning">
                             <Link to="chemie">
                               <img src={iconPlanning} alt="Planning" className="kpi-icon" />
                               &nbsp;Chemie
-                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(1)}}>
-                                1
-                              </Label>
                             </Link>
                           </li>
                           <li id="toestand">
                             <Link to="ecologie">
                               <img src={iconToestand} alt="Toestand" className="kpi-icon" />
                               &nbsp;Ecologie
-                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(1)}}>
-                                1
-                              </Label>
                             </Link>
                           </li>
         									<li id="tevredenheid">
         										<Link to="biologie">
         											<img src={iconTevredenheid} alt="Biologie" className="kpi-icon" />
         											&nbsp;Biologie
-                              <Label style={{position:'relative',top:'-5px !important',right:'-5px !important',backgroundColor:Utils.quantize(1)}}>
-                                1
-                              </Label>
         										</Link>
         									</li>
         								</ul>
@@ -289,25 +237,6 @@ var PeriodSelection = React.createClass({
 	}
 });
 
-var InfoModal = React.createClass({
-  render: function() {
-    var title = config.dashboardName + ' KPI Dashboard';
-    return this.transferPropsTo(
-        <Modal title={title} animation={true}>
-          <div className="modal-body">
-            <h3>KPI</h3>
-            <p>Een 'Key Performance Indicator' geeft op basis van onderliggende indicatoren inzicht in de prestaties van de waterbeheerder.</p>
-            <p>Wilt u meer informatie over de opbouw van een KPI, klik of tap dan op het desbetreffende icoontje.</p>
-            <h3>Tijdsperiode</h3>
-            <p>Standaard kijkt u naar het afgelopen jaar. Rechtsboven ziet u de actieve periode.</p>
-          </div>
-          <div className="modal-footer">
-            <Button onClick={this.props.onRequestHide}>Sluiten</Button>
-          </div>
-        </Modal>
-      );
-  }
-});
 
 var BiologieWrapper = React.createClass({
   render: function() {

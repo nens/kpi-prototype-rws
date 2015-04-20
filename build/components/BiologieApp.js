@@ -70,6 +70,8 @@ var BiologieApp = React.createClass({
         };
     },
     handleStadsdeelClick: function(stadsdeel) {
+        console.log('--------->', stadsdeel);
+
         if(this.state.stadsdeel === stadsdeel) {
             debug('De-selecting ' + stadsdeel + ', selecting ' + config.cityName);
             this.setState({'stadsdeel': config.cityName});
@@ -130,10 +132,6 @@ var BiologieApp = React.createClass({
         return selection;
     },
     setRefVal: function(val) {
-        // console.log('setRefVal', val);
-        // this.setState({
-        //     refval: val
-        // });
         return val;
     },
     render: function() {
@@ -164,12 +162,16 @@ var BiologieApp = React.createClass({
                 })
                 .entries(pigroup.values);
 
+            console.log('--->', self.state.stadsdeel);
+            console.log('--------->', filteredValues);
+
             if(self.state.stadsdeel === config.cityName) {
                 values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });    
+                // values = [];
             } else {
                 values = filteredValues.filter(function(v) { if(v.key === self.state.stadsdeel) return v; });
             }
-            values = filteredValues;
+
 
             return <Histo
                         active={(self.state.activeSelection === title) ? true : false}

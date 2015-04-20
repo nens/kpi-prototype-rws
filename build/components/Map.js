@@ -46,6 +46,25 @@ var path = d3.geo.path().projection(projection);
 var svg;
 
 
+var Legend = React.createClass({
+
+	render: function() {
+		var legendItems = [];
+		for(var i = 0; i < 1; i = i + 0.1) {
+			var j = i.toFixed(1); // one decimal comma...
+			legendItems.push(<div style={{textAlign:'center',backgroundColor:Utils.quantize(j)}}>{j}</div>);
+		}
+
+		return (
+			<div style={{position:'absolute',left:420,top:410,width:50,height:200}}>
+				{legendItems.reverse()}
+			</div>
+		)
+	}
+
+});
+
+
 var Map = React.createClass({
 
 	getInitialState: function() {
@@ -64,7 +83,7 @@ var Map = React.createClass({
 	            .attr("width", width)
 	            .attr("height", height);
 
-	        
+
 	        d3.json('static/data/' + config.cityGeojsonFile, function(json) {
 	        	self.setState({
 	        		features: json.features
@@ -86,37 +105,12 @@ var Map = React.createClass({
 		                    tip.hide();
 		                })
 		                .on('click', function() {
-		                    self.props.selectStadsdeel(feature.properties.owmnaam);
+		                	self.props.selectStadsdeel(feature.properties.owmident);
+		                    // self.props.selectStadsdeel(feature.properties.owmnaam);
 		                });
 	            });
-	            svg.selectAll("text")
-	                .data(json.features)
-	                .enter()
-	                .append("svg:text")
-	                .text(function(d){
-	                    return '';
-	                })
-	                .attr("x", function(d){
-	                    return path.centroid(d)[0];
-	                })
-	                .attr("y", function(d){
-	                    return  path.centroid(d)[1];
-	                })
-	                .attr("fill", "none")
-	                .attr("stroke", "black")
-	                .attr("stroke-width", "1px")
-	                .attr("text-anchor","middle")
-	                .attr('font-size','12pt')
-	                .attr('fill-opacity',1)
-	                .attr('stroke-linecap','butt')
-                	.attr('stroke-linejoin','miter')
-            		.attr('stroke-opacity',1);
-
 	        }); 	           	
         }        
-
-
-
     },
     render: function() {
     	var self = this;
@@ -170,15 +164,13 @@ var Map = React.createClass({
 
 	    var formattedActiveSelection = (self.props.activeSelection) ? Utils.truncate(self.props.activeSelection, 30) : '';
         return (
-    	    <TabbedArea defaultActiveKey={1} style={{position:'fixed'}}>
-	            <TabPane eventKey={1} tab="Nederland">
-		            <div id="map" className="map" ref="map" style={{marginTop:50, position:'fixed'}}>
-		            </div>
-		            <Label style={{position:'fixed',marginTop:60,fontSize:'1.1em'}}>
-		            	Geselecteerd: {this.props.stadsdeel||config.cityName}{self.props.activeSelection ? ' / ' : ''}{formattedActiveSelection}
-	            	</Label>
-		        </TabPane>
-            </TabbedArea>
+    	    <div style={{position:'fixed'}}>
+	            <div id="map" className="map" ref="map" style={{marginTop:50, position:'fixed'}}/>
+	            <Label style={{position:'fixed',marginTop:10,fontSize:'1.1em'}}>
+	            	Geselecteerd: {this.props.stadsdeel||config.cityName}{self.props.activeSelection ? ' / ' : ''}{formattedActiveSelection}
+	        	</Label>
+	        	<Legend/>
+            </div>
         )
     }
 });
