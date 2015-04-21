@@ -154,13 +154,13 @@ var Histo = React.createClass({
 
         var y = d3.scale.linear()
             .range([height, 1])
-            .domain([0, 1]);
+            .domain([-0.1, 1]);
 
 
         // Axis setup
         var xAxis = d3.svg.axis()
             .scale(x)
-            .tickFormat(d3.time.format("%m/%y"))
+            .tickFormat(d3.time.format("%Y"))
             .tickPadding(12)
             .orient("bottom");
 
@@ -316,7 +316,7 @@ var Histo = React.createClass({
 
         var bgCol = '#fff';
         if(self.state.chartType === 'pi') {
-          bgCol = Utils.quantize(lastValue);
+          bgCol = Utils.quantize(lastValue).color;
         } else {
           bgCol = '#fff';
         }

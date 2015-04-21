@@ -96,7 +96,7 @@ var App = React.createClass({
                     <Col xs={0} md={12}>
                       <a href="./index.html" className="home"><h2 style={{fontFamily:'Geogroteque-Light'}}><strong>{config.dashboardName}</strong> KRW Dashboard</h2></a>         
                       <a style={{position:'absolute', top:5, left:415}} target="_blank"
-                         href="https://rws-efcis.staging.lizard.net/">
+                         href="https://rws-efcis.staging.lizard.net/map/">
                          <OverlayTrigger placement="bottom" overlay={<Tooltip><strong>Bekijken in Lizard</strong></Tooltip>}>                               
                              <img width="35" style={{margin:'10px 0px 5px 5px'}} src={iconLizard} />
                          </OverlayTrigger>

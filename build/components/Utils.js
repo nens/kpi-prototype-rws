@@ -7,34 +7,41 @@ Utils = {};
 
 Utils.quantize = function(d) {
 	var d = Number(d);
-	if(d === 0) {
-		return 'grey';
-	} else
-	if(d >= 0.1 && d <= 0.2) {
-		return '#d73027';	
+
+	if(d >= 0 && d <= 0.2) {
+		return {
+			color: '#ff0000',
+			label: 'Voldoet niet / slecht'
+		}
 	} else 
-	if(d >= 0.2 && d <= 0.3) {
-		return '#f46d43';
+	if(d >= 0.2 && d <= 0.4) {
+		return {
+			color: '#FF9900',
+			label: 'Ontoereikend'
+		}
 	} else 
-	if(d >= 0.3 && d <= 0.4) {
-		return '#fdae61';
+	if(d >= 0.3 && d <= 0.6) {
+		return {
+			color: '#FFFF00',
+			label: 'Matig / geel'			
+		}
 	} else 
-	if(d >= 0.4 && d <= 0.5) {
-		return '#fee08b';
+	if(d >= 0.6 && d <= 0.8) {
+		return {
+			color: '#00CC00',
+			label: 'Goed'
+		}
 	} else
-	if(d >= 0.5 && d <= 0.6) {
-		return '#ffffbf';
-	} else
-	if(d >= 0.6 && d <= 0.7) {
-		return '#d9ef8b';
-	} else
-	if(d >= 0.7 && d <= 0.8) {
-		return '#a6d96a';
-	} else
-	if(d >= 0.8 && d <= 0.9) {
-		return '#66bd63';
+	if(d >= 0.8 && d <= 1) {
+		return {
+			color: '#0000FF',
+			label: 'Voldoet / zeer goed'
+		}
 	} else {
-		return '#1a9850';
+		return {
+			color: '#ccc',
+			label: '...'
+		}
 	}
 };
 

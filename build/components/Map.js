@@ -50,13 +50,15 @@ var Legend = React.createClass({
 
 	render: function() {
 		var legendItems = [];
-		for(var i = 0; i < 1; i = i + 0.1) {
-			var j = i.toFixed(1); // one decimal comma...
-			legendItems.push(<div style={{textAlign:'center',backgroundColor:Utils.quantize(j)}}>{j}</div>);
-		}
+
+		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.9).color}}>{Utils.quantize(0.9).label}</div>);
+		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.7).color}}>{Utils.quantize(0.7).label}</div>);
+		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.5).color}}>{Utils.quantize(0.5).label}</div>);
+		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.3).color}}>{Utils.quantize(0.3).label}</div>);
+		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.1).color}}>{Utils.quantize(0.1).label}</div>);
 
 		return (
-			<div style={{position:'absolute',left:420,top:410,width:50,height:200}}>
+			<div style={{position:'absolute',left:420,top:410,width:150,height:200}}>
 				{legendItems.reverse()}
 			</div>
 		)
@@ -123,7 +125,7 @@ var Map = React.createClass({
 			// Color me grey by default
     		map.selectAll('path')
     			.attr('fill', function(d) {
-    				return Utils.quantize(0);
+    				return Utils.quantize(0).color;
     			});
 
     		// If areas prop is given, color by last value
@@ -136,9 +138,9 @@ var Map = React.createClass({
 	    			.attr('fill', function(d) {
 	    				var quantizeValue = d.values[d.values.length - 1].Score || d.values[d.values.length - 1].Value;
 	    				if(self.props.stadsdeel === config.cityName) {
-							return Utils.quantize(quantizeValue);
+							return Utils.quantize(quantizeValue).color;
 	    				} else if (d.key === self.props.stadsdeel) {
-	    					return Utils.quantize(quantizeValue);
+	    					return Utils.quantize(quantizeValue).color;
 	    				} else {
 	    					return '#ccc';
 	    				}

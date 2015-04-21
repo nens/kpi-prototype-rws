@@ -165,33 +165,24 @@ var ChemieApp = React.createClass({
                 })
                 .entries(pigroup.values);
 
+            console.log('--->', self.state.stadsdeel);
+            console.log('--------->', filteredValues);
+
             if(self.state.stadsdeel === config.cityName) {
-                values = filteredValues.filter(function(v) { 
-                    // console.log('A v.key', v.key);
-                    if(v.key === config.cityName) {
-                        console.log('A v.key', v.key);
-                        console.log('A config.cityName', config.cityName);                                            
-                        return v;
-                    }
-                });    
+                values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });    
+                // values = [];
             } else {
-                values = filteredValues.filter(function(v) {
-                    if(v.key === self.state.stadsdeel) {
-                        console.log('B v.key', v.key);
-                        console.log('B self.state.stadsdeel', self.state.stadsdeel);
-                        return v; 
-                    }
-                });
+                values = filteredValues.filter(function(v) { if(v.key === self.state.stadsdeel) return v; });
             }
-            values = filteredValues;
+
 
             return <Histo
                         active={(self.state.activeSelection === title) ? true : false}
                         key={i} 
+                        setRefVal={self.setRefVal}
                         tabIndex={i+1}
                         title={title}
                         period={window.period}
-                        setRefVal={self.setRefVal}
                         handleSelection={self.handleSelection}
                         values={values.length < 1 ? [] : values[0].values} />
         });

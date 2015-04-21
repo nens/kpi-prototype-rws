@@ -162,24 +162,27 @@ var EcologieApp = React.createClass({
                 })
                 .entries(pigroup.values);
 
+            console.log('--->', self.state.stadsdeel);
+            console.log('--------->', filteredValues);
+
             if(self.state.stadsdeel === config.cityName) {
                 values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });    
+                // values = [];
             } else {
                 values = filteredValues.filter(function(v) { if(v.key === self.state.stadsdeel) return v; });
             }
-            values = filteredValues;
+
 
             return <Histo
                         active={(self.state.activeSelection === title) ? true : false}
                         key={i} 
+                        setRefVal={self.setRefVal}
                         tabIndex={i+1}
                         title={title}
                         period={window.period}
-                        setRefVal={self.setRefVal}
                         handleSelection={self.handleSelection}
                         values={values.length < 1 ? [] : values[0].values} />
         });
-
 
         return (
               <Grid>
