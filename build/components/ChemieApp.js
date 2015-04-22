@@ -51,25 +51,28 @@ var iconPlanning = require('../images/icon-planning.png');
 var iconLizard = require('../images/icon-lizard.png');
 
 var weightSettings = require('./WeightSettings').Chemie;
-
 var Map = require('./Map');
 var KPIModal = require('./KPIModal');
+var Utils = require('./Utils');
 var Histo = require('./Histo');
 var config = require('../config');
+
 var kaart, lineChart, histoChart;
 
 
 
-
-
 var ChemieApp = React.createClass({
+
     getInitialState: function() {
         return {
             pis: [],
-            stadsdeel: config.cityName
+            stadsdeel: config.cityName,
+            selectedYear: '01/01/2014'
         };
     },
     handleStadsdeelClick: function(stadsdeel) {
+        console.log('--------->', stadsdeel);
+
         if(this.state.stadsdeel === stadsdeel) {
             debug('De-selecting ' + stadsdeel + ', selecting ' + config.cityName);
             this.setState({'stadsdeel': config.cityName});
@@ -129,13 +132,12 @@ var ChemieApp = React.createClass({
         }
         return selection;
     },
-    setRefVal: function(val) {
-        // console.log('setRefVal', val);
-        // this.setState({
-        //     refval: val
-        // });
-        return val;
-    },    
+    handleSetYear: function(obj) {       
+        this.setState({
+            selectedYear: obj.Date.toString()
+        });
+        return;
+    },
     render: function() {
 
         var self = this;
@@ -148,7 +150,6 @@ var ChemieApp = React.createClass({
 
             perGebied = d3.nest()
                 .key(function(d) {
-                    console.log(d);
                     return d.Gebied;
                 })
                 .entries(filteredPIList);
@@ -165,12 +166,11 @@ var ChemieApp = React.createClass({
                 })
                 .entries(pigroup.values);
 
-            console.log('--->', self.state.stadsdeel);
-            console.log('--------->', filteredValues);
+            // console.log('--->', self.state.stadsdeel);
+            // console.log('--------->', filteredValues);
 
             if(self.state.stadsdeel === config.cityName) {
-                values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });    
-                // values = [];
+                values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });
             } else {
                 values = filteredValues.filter(function(v) { if(v.key === self.state.stadsdeel) return v; });
             }
@@ -179,10 +179,10 @@ var ChemieApp = React.createClass({
             return <Histo
                         active={(self.state.activeSelection === title) ? true : false}
                         key={i} 
-                        setRefVal={self.setRefVal}
                         tabIndex={i+1}
                         title={title}
                         period={window.period}
+                        handleSetYear={self.handleSetYear}
                         handleSelection={self.handleSelection}
                         values={values.length < 1 ? [] : values[0].values} />
         });
@@ -196,6 +196,7 @@ var ChemieApp = React.createClass({
                     </Col>
                     <Col xs={12} md={6} style={{textAlign:'left'}}>
                         <Map selectStadsdeel={this.handleStadsdeelClick}
+                             selectedYear={this.state.selectedYear}
                              perGebied={perGebied}
                              activeSelection={this.state.activeSelection}
                              stadsdeel={this.state.stadsdeel} />
@@ -205,7 +206,6 @@ var ChemieApp = React.createClass({
         );
     }
 });
-
 
 
 

@@ -95,7 +95,7 @@ var Histo = React.createClass({
         var period = this.props.period;
         var referenceValue = this.state.referenceValue;
         var line, lastValue;
-        var tooltipString = 'PI';
+        var tooltipString = '';
 
         // if(values[values.length - 1].Value === 'NULL') {
         //     // Last value is NULL... do not draw this chart!
@@ -110,11 +110,10 @@ var Histo = React.createClass({
             try {
               lastValue = (values[values.length - 1].Score) || 0;  
             } catch(e){
-              console.log(e);
               lastValue = 0;
             }
             
-            tooltipString = 'PI';
+            tooltipString = '';
         }
        
 
@@ -184,10 +183,10 @@ var Histo = React.createClass({
 
         xaxis.selectAll("text")
             .style("text-anchor", "end")
-            .attr("dx", "-.8em")
+            .attr("dx", "3em")
             .attr("dy", ".15em")
             .attr("transform", function(d) {
-                return "rotate(-65)";
+                // return "rotate(-65)";
             });
 
         // Appending y axis
@@ -195,12 +194,24 @@ var Histo = React.createClass({
           .attr("class", "y axis")
           .call(yAxis)
         .append("text")
-          .text(chartType === 'real' ? 'Aantal' : 'PI')
+          .text("")
           .attr("transform", "rotate(-90)")
           .attr("y", 6)
           .attr("dy", ".71em")
           .style("text-anchor", "end");
 
+
+          svg.append("rect")
+              .attr("class", "overlay")
+              .attr("width", width)
+              .attr("height", height)
+              .on("mouseover", function() {
+                focus.style("display", null); 
+              })
+              .on("mouseout", function() {
+                focus.style("display", "none");
+              })
+              .on("mousemove", mousemove);
 
         svg.selectAll("bar")
             .data(values)
@@ -213,6 +224,7 @@ var Histo = React.createClass({
             .attr("y", function(d) {
               return y(d.Score);
             })
+            .on('click', self.props.handleSetYear)
             .attr("height", function(d) { return height - y(d.Score); });
 
         
@@ -231,17 +243,7 @@ var Histo = React.createClass({
               .attr("x", 9)
               .attr("dy", ".35em");
 
-          svg.append("rect")
-              .attr("class", "overlay")
-              .attr("width", width)
-              .attr("height", height)
-              .on("mouseover", function() {
-                focus.style("display", null); 
-              })
-              .on("mouseout", function() {
-                focus.style("display", "none");
-              })
-              .on("mousemove", mousemove);
+
 
           function mousemove() {
             var x0 = x.invert(d3.mouse(this)[0]),
@@ -256,11 +258,11 @@ var Histo = React.createClass({
                d = d1;
             }
 
-            try {                
+            try {
               focus.attr("transform", "translate(" + (x(parseDate(d.Date))+30) + "," + y(d.Score) + ")");
-              focus.select("text").text(d.Score);
+              focus.select("text").text(d.Score);                            
             } catch(error) {
-              console.log(error);
+              var error;
             }
 
           }
@@ -292,9 +294,6 @@ var Histo = React.createClass({
           alarmTxt = 'Boven referentiewaarde'
         }
 
-        self.props.setRefVal(refval);
-
-
         var alarmClasses = cx({
           'danger': alarmClass
         });
@@ -315,22 +314,22 @@ var Histo = React.createClass({
         });
 
         var bgCol = '#fff';
+        var labelCol = '#000';
         if(self.state.chartType === 'pi') {
           bgCol = Utils.quantize(lastValue).color;
+          labelCol = Utils.quantize(lastValue).labelColor;
         } else {
           bgCol = '#fff';
         }
-        var txtCol = (self.state.chartType === 'pi') ? '#fff' : '#000';
+
 
         return (
-            <div className={classesContainer}
-                 onClick={this.handleHistoClick}
-                 ref="histoRoot">
+            <div className={classesContainer} ref="histoRoot">
 
               <div style={{position:'relative'}} className={classesTitlebar}>
                     <OverlayTrigger placement="right" overlay={<Tooltip><strong>{tooltipString}</strong></Tooltip>}>
                         <Label 
-                               style={{float:'right', fontSize:'1.1em', cursor: 'pointer', backgroundColor: bgCol, color: txtCol}}>
+                               style={{float:'right', fontSize:'1.1em', cursor: 'pointer', backgroundColor: bgCol, color: labelCol}}>
                                {lastValue} {(self.state.chartType === 'pi') ? '' : ' ('+alarmTxt+')'}
                         </Label>
                     </OverlayTrigger>&nbsp;
@@ -349,8 +348,8 @@ var Histo = React.createClass({
                                      position:'relative', 
                                      top:103, 
                                      left:437,
-                                     '-webkit-transform':'rotate(-90deg)',
-                                     '-moz-transform':'rotate(-90deg)',
+                                     'WebkitTransform':'rotate(-90deg)',
+                                     'MozTransform':'rotate(-90deg)',
                                      transform:'rotate(-90deg)'}} />
                 </div>
               </div>

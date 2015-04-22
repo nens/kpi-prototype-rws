@@ -29,6 +29,7 @@ var MenuItem = require('react-bootstrap').MenuItem;
 var Table = require('react-bootstrap').Table;
 var Promise = require('es6-promise').Promise;
 
+var moment = require('moment');
 var $ = require('jquery');
 var d3 = require('d3');
 var Utils = require('./Utils');
@@ -51,11 +52,31 @@ var Legend = React.createClass({
 	render: function() {
 		var legendItems = [];
 
-		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.9).color}}>{Utils.quantize(0.9).label}</div>);
-		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.7).color}}>{Utils.quantize(0.7).label}</div>);
-		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.5).color}}>{Utils.quantize(0.5).label}</div>);
-		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.3).color}}>{Utils.quantize(0.3).label}</div>);
-		legendItems.push(<div style={{textAlign:'center',padding:5,backgroundColor:Utils.quantize(0.1).color}}>{Utils.quantize(0.1).label}</div>);
+		legendItems.push(
+			<div style={{textAlign:'center',color:Utils.quantize(0.9).labelColor,padding:5,backgroundColor:Utils.quantize(0.9).color}}>
+				{Utils.quantize(0.9).label}
+			</div>
+		);
+		legendItems.push(
+			<div style={{textAlign:'center',color:Utils.quantize(0.7).labelColor,padding:5,backgroundColor:Utils.quantize(0.7).color}}>
+				{Utils.quantize(0.7).label}
+			</div>
+		);
+		legendItems.push(
+			<div style={{textAlign:'center',color:Utils.quantize(0.5).labelColor,padding:5,backgroundColor:Utils.quantize(0.5).color}}>
+				{Utils.quantize(0.5).label}
+			</div>
+		);
+		legendItems.push(
+			<div style={{textAlign:'center',color:Utils.quantize(0.3).labelColor,padding:5,backgroundColor:Utils.quantize(0.3).color}}>
+				{Utils.quantize(0.3).label}
+			</div>
+		);
+		legendItems.push(
+			<div style={{textAlign:'center',color:Utils.quantize(0.1).labelColor,padding:5,backgroundColor:Utils.quantize(0.1).color}}>
+				{Utils.quantize(0.1).label}
+			</div>
+		);
 
 		return (
 			<div style={{position:'absolute',left:420,top:410,width:150,height:200}}>
@@ -136,7 +157,14 @@ var Map = React.createClass({
 	    				return d.key;
 	    			})
 	    			.attr('fill', function(d) {
-	    				var quantizeValue = d.values[d.values.length - 1].Score || d.values[d.values.length - 1].Value;
+
+	    				var filterByYear = d.values.filter(function(val) {
+	    					// console.log('val.date')
+	    					if(val.Date === self.props.selectedYear) return val;
+	    				});
+	    				var quantizeValue = filterByYear[0].Score;
+
+
 	    				if(self.props.stadsdeel === config.cityName) {
 							return Utils.quantize(quantizeValue).color;
 	    				} else if (d.key === self.props.stadsdeel) {
@@ -169,7 +197,7 @@ var Map = React.createClass({
     	    <div style={{position:'fixed'}}>
 	            <div id="map" className="map" ref="map" style={{marginTop:50, position:'fixed'}}/>
 	            <Label style={{position:'fixed',marginTop:10,fontSize:'1.1em'}}>
-	            	Geselecteerd: {this.props.stadsdeel||config.cityName}{self.props.activeSelection ? ' / ' : ''}{formattedActiveSelection}
+	            	Geselecteerd: {moment(this.props.selectedYear).year()} / {this.props.stadsdeel||config.cityName}{self.props.activeSelection ? ' / ' : ''}{formattedActiveSelection}
 	        	</Label>
 	        	<Legend/>
             </div>

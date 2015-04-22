@@ -66,7 +66,8 @@ var BiologieApp = React.createClass({
     getInitialState: function() {
         return {
             pis: [],
-            stadsdeel: config.cityName
+            stadsdeel: config.cityName,
+            selectedYear: '01/01/2014'
         };
     },
     handleStadsdeelClick: function(stadsdeel) {
@@ -131,8 +132,11 @@ var BiologieApp = React.createClass({
         }
         return selection;
     },
-    setRefVal: function(val) {
-        return val;
+    handleSetYear: function(obj) {       
+        this.setState({
+            selectedYear: obj.Date.toString()
+        });
+        return;
     },
     render: function() {
 
@@ -151,7 +155,6 @@ var BiologieApp = React.createClass({
                 .entries(filteredPIList);
         }
 
-
         var histograms = self.state.pis.map(function(pigroup, i) {
 
             var values;
@@ -162,12 +165,11 @@ var BiologieApp = React.createClass({
                 })
                 .entries(pigroup.values);
 
-            console.log('--->', self.state.stadsdeel);
-            console.log('--------->', filteredValues);
+            // console.log('--->', self.state.stadsdeel);
+            // console.log('--------->', filteredValues);
 
             if(self.state.stadsdeel === config.cityName) {
-                values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });    
-                // values = [];
+                values = filteredValues.filter(function(v) { if(v.key === config.cityName) return v; });
             } else {
                 values = filteredValues.filter(function(v) { if(v.key === self.state.stadsdeel) return v; });
             }
@@ -176,10 +178,10 @@ var BiologieApp = React.createClass({
             return <Histo
                         active={(self.state.activeSelection === title) ? true : false}
                         key={i} 
-                        setRefVal={self.setRefVal}
                         tabIndex={i+1}
                         title={title}
                         period={window.period}
+                        handleSetYear={self.handleSetYear}
                         handleSelection={self.handleSelection}
                         values={values.length < 1 ? [] : values[0].values} />
         });
@@ -193,6 +195,7 @@ var BiologieApp = React.createClass({
 	              	</Col>
                     <Col xs={12} md={6} style={{textAlign:'left'}}>
                         <Map selectStadsdeel={this.handleStadsdeelClick}
+                             selectedYear={this.state.selectedYear}
                              perGebied={perGebied}
                              activeSelection={this.state.activeSelection}
                              stadsdeel={this.state.stadsdeel} />

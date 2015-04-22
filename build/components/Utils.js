@@ -11,35 +11,41 @@ Utils.quantize = function(d) {
 	if(d >= 0 && d <= 0.2) {
 		return {
 			color: '#ff0000',
+			labelColor: '#fff',
 			label: 'Voldoet niet / slecht'
 		}
 	} else 
 	if(d >= 0.2 && d <= 0.4) {
 		return {
 			color: '#FF9900',
+			labelColor: '#000',
 			label: 'Ontoereikend'
 		}
 	} else 
 	if(d >= 0.3 && d <= 0.6) {
 		return {
 			color: '#FFFF00',
+			labelColor: '#000',
 			label: 'Matig / geel'			
 		}
 	} else 
 	if(d >= 0.6 && d <= 0.8) {
 		return {
 			color: '#00CC00',
+			labelColor: '#000',
 			label: 'Goed'
 		}
 	} else
 	if(d >= 0.8 && d <= 1) {
 		return {
 			color: '#0000FF',
+			labelColor: '#fff',
 			label: 'Voldoet / zeer goed'
 		}
 	} else {
 		return {
 			color: '#ccc',
+			labelColor: '#000',
 			label: '...'
 		}
 	}
