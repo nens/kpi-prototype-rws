@@ -105,7 +105,8 @@ var Map = React.createClass({
 	        svg = d3.select(self.refs.map.getDOMNode()).append("svg")
 	            .attr("width", width)
 	            .attr("height", height);
-
+			
+			setTimeout(function(){ d3.selectAll('path').attr('fill', function(d) { return '#ccc'; }); }, 300); // HACK!!
 
 	        d3.json('static/data/' + config.cityGeojsonFile, function(json) {
 	        	self.setState({
@@ -132,14 +133,15 @@ var Map = React.createClass({
 		                    // self.props.selectStadsdeel(feature.properties.owmnaam);
 		                });
 	            });
-	        }); 	           	
+	        }); 
+
         }        
     },
     render: function() {
     	var self = this;
 
 		if(self.isMounted()) {
-
+			
 	    	var perGebied = self.props.perGebied;
 			var map = d3.select(self.refs.map.getDOMNode().getElementsByTagName('svg')[0]);
 
@@ -148,6 +150,8 @@ var Map = React.createClass({
     			.attr('fill', function(d) {
     				return Utils.quantize(0).color;
     			});
+
+
 
     		// If areas prop is given, color by last value
 	    	if(perGebied) {
@@ -193,6 +197,7 @@ var Map = React.createClass({
 
 
 	    var formattedActiveSelection = (self.props.activeSelection) ? Utils.truncate(self.props.activeSelection, 30) : '';
+
         return (
     	    <div style={{position:'fixed'}}>
 	            <div id="map" className="map" ref="map" style={{marginTop:50, position:'fixed'}}/>

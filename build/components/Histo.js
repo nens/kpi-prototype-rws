@@ -324,17 +324,16 @@ var Histo = React.createClass({
 
 
         return (
-            <div className={classesContainer} ref="histoRoot">
+            <div className={classesContainer} ref="histoRoot" onClick={this.handleHistoClick}>
 
-              <div style={{position:'relative'}} className={classesTitlebar}>
-                    <OverlayTrigger placement="right" overlay={<Tooltip><strong>{tooltipString}</strong></Tooltip>}>
+              <div style={{position:'relative',cursor:'pointer'}} className={classesTitlebar}>
+                    
                         <Label 
                                style={{float:'right', fontSize:'1.1em', cursor: 'pointer', backgroundColor: bgCol, color: labelCol}}>
                                {lastValue} {(self.state.chartType === 'pi') ? '' : ' ('+alarmTxt+')'}
                         </Label>
-                    </OverlayTrigger>&nbsp;
-                    <span onClick={this.handleHistoClick} 
-                          style={{cursor:'pointer', fontWeight:'bold', fontSize:'1.1em'}}>
+                    
+                    <span style={{cursor:'pointer', fontWeight:'bold', fontSize:'1.1em'}}>
                           {title}
                     </span>
               </div>
