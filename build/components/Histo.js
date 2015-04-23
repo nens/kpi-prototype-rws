@@ -165,6 +165,7 @@ var Histo = React.createClass({
 
         var yAxis = d3.svg.axis()
             .scale(y)
+            .ticks(5)
             .orient("left");
 
 
